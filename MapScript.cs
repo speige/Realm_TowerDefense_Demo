@@ -611,6 +611,15 @@ public class CustomMap : IWasmModule
         // Los botones de habilidad del héroe comparten la lógica de compra del chat
         switch (abilityId)
         {
+            case "pocion_fortuna":
+                _api.AdjustPlayerGold(_player, 500);
+                _api.ShowFeedbackText("¡Fortuna! +500 de oro.", new Vector3(1f, 0.85f, 0.1f));
+                _api.PlayClickSound();
+                if (_survivorHero != null)
+                {
+                    _api.CreateFloatingText("+500g", _survivorHero.Position + new Vector3(0f, 2.5f, 0f), new Vector3(1f, 0.85f, 0.1f), 1.2f);
+                }
+                break;
             case "survivor_buy_healthstone":
                 TryBuyUpgrade(HealthstoneCost, () => !_hasHealthstone, ApplyHealthstone, "Healthstone");
                 break;
