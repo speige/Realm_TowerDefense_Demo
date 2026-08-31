@@ -1,761 +1,945 @@
 {
-  "MapProperties": {
-    "CameraBoundsBottom": 90,
-    "CameraBoundsLeft": -90,
-    "CameraBoundsRight": 90,
-    "CameraBoundsTop": -90,
-    "HowToPlayInstructions": [
-      "Protege a tu H\u00E9roe Central en el medio de la isla: si muere, la partida termina.",
-      "Escribe -help en el chat o usa los botones de abajo para mejorar al h\u00E9roe (da\u00F1o, alcance, furia, multidisparo, poci\u00F3n).",
-      "Compra la Healthstone por 2000 de oro para \u002B2500 de vida m\u00E1xima y regeneraci\u00F3n pasiva.",
-      "Recibe oro pasivo y por cada enemigo eliminado para financiar tus mejoras.",
-      "Prep\u00E1rate en la oleada 15 para la llegada del Drag\u00F3n Tit\u00E1n (Raid Boss)."
-    ],
-    "HowToPlayObjective": "Protege a tu H\u00E9roe Central, mej\u00F3ralo con oro y destruye al Drag\u00F3n Tit\u00E1n en la oleada final.",
-    "MapDescription": "Supervive a 15 oleadas protegiendo a tu H\u00E9roe Central, mej\u00F3ralo con oro y derrota al colosal Raid Boss.",
-    "MapName": "TOWER SURVIVORS"
-  },
-  "CustomUnits": [
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 10,
-      "ArmorType": "heavy",
-      "AttackCooldown": 1.6,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 30,
-      "Description": "Drag\u00F3n cibern\u00E9tico volador. Vuela en l\u00EDnea recta directo al castillo.",
-      "GoldBounty": 20,
-      "IgnorePlayerColor": true,
-      "MaxHp": 450,
-      "ModelPath": "Assets/models/units/blue_dragon.glb",
-      "Name": "Cyber Dragon",
-      "PathingType": 4,
-      "PopCost": 2,
-      "ProductionTime": 0,
-      "Range": 9,
-      "ScanRadius": 10,
-      "Speed": 9,
-      "UnitId": "cyber_dragon",
-      "YOffset": 14
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 14,
-      "ArmorType": "heavy",
-      "AttackCooldown": 2,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 45,
-      "Description": "Ogro tit\u00E1nico de hierro oscuro. Absorbe grandes cantidades de da\u00F1o.",
-      "GoldBounty": 20,
-      "IgnorePlayerColor": true,
-      "MaxHp": 750,
-      "ModelPath": "Assets/models/units/warrior_giant.glb",
-      "Name": "Dark Iron Ogre",
-      "PathingType": 8,
-      "PopCost": 2,
-      "ProductionTime": 0,
-      "Range": 2.2,
-      "ScanRadius": 10,
-      "Speed": 3,
-      "UnitId": "dark_iron_ogre"
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 20,
-      "ArmorType": "heavy",
-      "AttackCooldown": 1.5,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 150,
-      "Description": "Gran Raid Boss Oleada 15. Colosal drag\u00F3n tit\u00E1n. Entra en Enrage al 50% de vida.",
-      "GoldBounty": 1000,
-      "IgnorePlayerColor": true,
-      "MaxHp": 12000,
-      "ModelPath": "Assets/models/units/dragon_war_mount.glb",
-      "Name": "Dragon Titan Boss",
-      "PathingType": 8,
-      "PopCost": 20,
-      "ProductionTime": 0,
-      "Range": 4,
-      "ScanRadius": 10,
-      "Speed": 5.5,
-      "UnitId": "dragon_titan_boss",
-      "YOffset": 9
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 8,
-      "ArmorType": "heavy",
-      "AttackCooldown": 1.4,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 26,
-      "Description": "Draco igneo volador. Asalta las defensas sobrevolando obst\u00E1culos.",
-      "GoldBounty": 20,
-      "IgnorePlayerColor": true,
-      "MaxHp": 380,
-      "ModelPath": "Assets/models/units/ice_dragon_beast.glb",
-      "Name": "Flame Drake",
-      "PathingType": 4,
-      "PopCost": 2,
-      "ProductionTime": 0,
-      "Range": 8,
-      "ScanRadius": 10,
-      "Speed": 8,
-      "UnitId": "flame_drake",
-      "YOffset": 14
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 1,
-      "ArmorType": "light",
-      "AttackCooldown": 1,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 10,
-      "Description": "Goblin del bosque sumamente r\u00E1pido y evasivo.",
-      "GoldBounty": 10,
-      "IgnorePlayerColor": true,
-      "MaxHp": 70,
-      "ModelPath": "Assets/models/units/troll_warrior.glb",
-      "Name": "Forest Goblin",
-      "PathingType": 8,
-      "PopCost": 1,
-      "ProductionTime": 0,
-      "Range": 1.8,
-      "ScanRadius": 10,
-      "Speed": 9,
-      "UnitId": "forest_goblin"
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 12,
-      "ArmorType": "heavy",
-      "AttackCooldown": 2.2,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 60,
-      "Description": "Mini-Boss Oleada 5. Coloso de roca inmune a efectos de ralentizaci\u00F3n.",
-      "GoldBounty": 150,
-      "IgnorePlayerColor": true,
-      "MaxHp": 3200,
-      "ModelPath": "Assets/models/units/stone_golem_warrior.glb",
-      "Name": "Giant Rock Golem",
-      "PathingType": 8,
-      "PopCost": 5,
-      "ProductionTime": 0,
-      "Range": 2.5,
-      "ScanRadius": 10,
-      "Speed": 3.5,
-      "UnitId": "giant_rock_golem"
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ],
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 15,
-      "ArmorType": "heavy",
-      "AttackCooldown": 1.8,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 90,
-      "Description": "Mini-Boss Oleada 10. Ar\u00E1cnido mec\u00E1nico demoledor con da\u00F1o masivo a estructuras.",
-      "GoldBounty": 250,
-      "IgnorePlayerColor": true,
-      "MaxHp": 5000,
-      "ModelPath": "Assets/models/units/heavy_mech_warrior.glb",
-      "Name": "Mech Spider Monster",
-      "PathingType": 8,
-      "PopCost": 8,
-      "ProductionTime": 0,
-      "Range": 3,
-      "ScanRadius": 10,
-      "Speed": 4.5,
-      "UnitId": "mech_spider_monster"
-    },
-    {
-      "Abilities": [
-        "fireball",
-        "lightning",
-        "holylight",
-        "pocion_fortuna",
-        "survivor_buy_healthstone",
-        "survivor_buy_damage",
-        "survivor_buy_range",
-        "survivor_buy_fury",
-        "survivor_buy_multishot",
-        "survivor_heal"
-      ],
-      "Animations": {
-        "Idle": [
-          "standing_idle_01___standing_idle_with_bow.ranim"
-        ],
-        "Attack": [
-          "shooting_arrow___shooting_with_bow_and_arrow.ranim"
-        ],
-        "Death": [
-          "standing_death_backward_01___death_reaction_falling_backwards_with_bow.ranim"
-        ],
-        "Spell_Cast": [
-          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
-        ]
-      },
-      "Armor": 5,
-      "ArmorType": "light",
-      "AttackCooldown": 0.85,
-      "AttackType": "ranged",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 45,
-      "Description": "Arquero central inm\u00F3vil del Survivor. Dispara solo a los enemigos en rango. Mej\u00F3ralo con comandos de chat (-help) o sus botones de habilidad.",
-      "GoldBounty": 0,
-      "IgnorePlayerColor": true,
-      "IsHero": true,
-      "MaxHp": 1200,
-      "ModelPath": "Assets/models/units/orc_archer.glb",
-      "Name": "H\u00E9roe del Survivor",
-      "PathingType": 32,
-      "PopCost": 0,
-      "ProductionTime": 0,
-      "Range": 38,
-      "ScanRadius": 45,
-      "Speed": 0,
-      "UnitId": "survivor_hero"
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "zombie_idle___zombie_alert_idle.ranim"
-        ],
-        "Walk": [
-          "walking___zombie_walking.ranim"
-        ],
-        "Attack": [
-          "zombie_attack___zombie_overhead_two_hand_attack.ranim"
-        ],
-        "Death": [
-          "zombie_death___zombie_getting_hit_and_falling_onto_back.ranim"
-        ]
-      },
-      "Armor": 2,
-      "ArmorType": "light",
-      "AttackCooldown": 1.4,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 13,
-      "Description": "Infanter\u00EDa no-muerta enjambre b\u00E1sica. D\u00E9bil pero numerosa.",
-      "GoldBounty": 10,
-      "IgnorePlayerColor": true,
-      "MaxHp": 110,
-      "ModelPath": "Assets/models/units/skeleton_warrior.glb",
-      "Name": "Zombie Soldier",
-      "PathingType": 8,
-      "PopCost": 1,
-      "ProductionTime": 0,
-      "Range": 1.8,
-      "ScanRadius": 10,
-      "Speed": 5,
-      "UnitId": "zombie_soldier"
-    },
-    {
-      "Animations": {
-        "Idle": [
-          "zombie_idle___zombie_standing_idle.ranim"
-        ],
-        "Walk": [
-          "walking___creeping_zombie_walk.ranim"
-        ],
-        "Attack": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Death": [
-          "zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
-        ]
-      },
-      "Armor": 8,
-      "ArmorType": "heavy",
-      "AttackCooldown": 1.8,
-      "AttackType": "melee",
-      "CostGold": 0,
-      "CostStone": 0,
-      "CostWood": 0,
-      "Damage": 28,
-      "Description": "Guerrero no-muerto acorazado con armadura pesada.",
-      "GoldBounty": 15,
-      "IgnorePlayerColor": true,
-      "MaxHp": 320,
-      "ModelPath": "Assets/models/units/undead_knight_scavenger.glb",
-      "Name": "Zombie Warrior",
-      "PathingType": 8,
-      "PopCost": 1,
-      "ProductionTime": 0,
-      "Range": 2,
-      "ScanRadius": 10,
-      "Speed": 4,
-      "UnitId": "zombie_warrior"
-    }
-  ],
-  "CustomBuildings": [],
-  "CustomResources": [],
-  "CustomProps": [],
-  "CustomAbilities": [
-    {
-      "AbilityId": "fireball",
-      "AbilityType": "target_spell",
-      "AreaOfEffectRadius": 4,
-      "Cooldown": 12,
-      "Damage": 50,
-      "Description": "[X] Bola de fuego \u2014 Da\u00F1o 50 en \u00E1rea (radio 4)",
-      "IconPath": "res://Assets/UI/fire_spell.png",
-      "ManaCost": 0,
-      "Name": "Bola de fuego",
-      "TargetRange": 12
-    },
-    {
-      "AbilityId": "holylight",
-      "AbilityType": "target_spell",
-      "AreaOfEffectRadius": 4,
-      "Cooldown": 15,
-      "Description": "[X] Luz sagrada \u2014 Cura 60 en \u00E1rea (radio 4)",
-      "Healing": 60,
-      "IconPath": "res://Assets/UI/magic_upgrade_arrow.png",
-      "ManaCost": 0,
-      "Name": "Luz sagrada",
-      "TargetRange": 12
-    },
-    {
-      "AbilityId": "lightning",
-      "AbilityType": "target_spell",
-      "AreaOfEffectRadius": 2,
-      "Cooldown": 18,
-      "Damage": 80,
-      "Description": "[X] Rayo \u2014 Da\u00F1o 80 en \u00E1rea (radio 2)",
-      "IconPath": "res://Assets/UI/lightning_spell.png",
-      "ManaCost": 0,
-      "Name": "Rayo",
-      "TargetRange": 12
-    },
-    {
-      "AbilityId": "pocion_fortuna",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Pocion de Fortuna \u2014 Otorga 500 de oro al instante.",
-      "IconPath": "res://Assets/UI/gold_coin.png",
-      "ManaCost": 0,
-      "Name": "Pocion de Fortuna",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_buy_damage",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Piedra de Dano \u2014 150g por nivel, max 5. \u002B25 dano.",
-      "IconPath": "res://Assets/UI/battle_axe.png",
-      "ManaCost": 0,
-      "Name": "Piedra de Dano",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_buy_fury",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Furia de Flechas \u2014 200g por nivel, max 3. \u002B20% de flecha extra.",
-      "IconPath": "res://Assets/UI/golden_hammers.png",
-      "ManaCost": 0,
-      "Name": "Furia de Flechas",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_buy_healthstone",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Healthstone \u2014 2000g. \u002B2500 vida max y regeneracion \u002B35/s (unica).",
-      "IconPath": "res://Assets/UI/battle_shield.png",
-      "ManaCost": 0,
-      "Name": "Healthstone",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_buy_multishot",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Multidisparo \u2014 1500g. Tus ataques impactan a 3 objetivos cercanos.",
-      "IconPath": "res://Assets/UI/scroll_icon.png",
-      "ManaCost": 0,
-      "Name": "Multidisparo",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_buy_range",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Piedra de Alcance \u2014 300g por nivel, max 3. \u002B8 alcance.",
-      "IconPath": "res://Assets/UI/elf_warrior.png",
-      "ManaCost": 0,
-      "Name": "Piedra de Alcance",
-      "TargetRange": 0
-    },
-    {
-      "AbilityId": "survivor_heal",
-      "AbilityType": "instant_spell",
-      "Cooldown": 0,
-      "Description": "[X] Pocion de Restauracion \u2014 200g. Cura 600 de vida.",
-      "IconPath": "res://Assets/UI/gold_coin.png",
-      "ManaCost": 0,
-      "Name": "Pocion de Restauracion",
-      "TargetRange": 0
-    }
-  ],
-  "CustomUpgrades": [],
-  "CustomItems": [],
-  "CustomWeapons": [],
-  "Assets": {
-    "decals": {
-      "acid_drip.png": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
-      "arcane_spark.png": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
-    },
-    "glb": {
-      "building": {
-        "ancient_altar.glb": "1fbd286dfd0973eed9ee6339a67b0e08daf65eb2614268033584c737b3edc31f",
-        "crystal_tree.glb": "26e98630d81ae760abe8ae16c6d5a2a12aaf6199457da11f6948d181849a200a",
-        "golden_temple.glb": "dae71092cf6beec4bfae9dab9e53b83acb3c910b07eeb7561aa5e5e9763e6fd1",
-        "ice_tower.glb": "c328b5d95376cba8ab9de4a635d73623661041f606b6cc0ba9cd4c19fefe418c",
-        "magic_tower.glb": "a34bdc0484bf19c0c5c59542df27e30e45376dab9232015f8eca9d77c45d2c2f",
-        "skull_tower.glb": "bbe65c925e71a6cc81c748b80e50df545141d96e6dcb1cbf7462d5ebefe3d7a1",
-        "stone_tower.glb": "1f068693872ea38d989d5da619165403acf03f90a0c0eec008c1e5b598ad1160",
-        "tower.glb": "9ad1cd8dd612c0bbbc815ed12940cfc155775f52beff543df04e16fcf83763e6",
-        "tower_1.glb": "580edd489cc482ed3241680f3f4442db4a9cfaff2321d431757818f8f3a2c6c5",
-        "volcano_entrance.glb": "570580e3f5a8102de2826d6d9c787a19e1f1cf0ae197767b92a7a723c94eda0b",
-        "wooden_tower.glb": "4bc5ab2de185b68fc81cd44b46e83f9baad87c1306d676bfe1b0a2769b14bff2",
-        "wooden_workshop.glb": "573de923d13bdb931652414c9ffd440d3133e1302f38d9e7afc71108a11cb71c"
-      },
-      "character": {
-        "adventurer.glb": {
-          "collision_circle_ratio": 0.75,
-          "hash": "32ac544d4264a85ed462fd6ae21a675fd611be5b54b994f571537c456373568b",
-          "y_offset": 1.4901164
-        },
-        "armor_knight.glb": "2f024de61febe555971aec71fd6ddfd0810baef29a99e5d1d137d9f0a1d59265",
-        "armored_dragon.glb": "1823029d3e18ba78f4c2808f3ae1f6b447a806e810fb160bc7f2ad36f25e1c52",
-        "black_armored_robot.glb": "b15280787c896679eb26eb1c2f03ab6c41a46c79cc0dc5a3e36bf4a2bafba827",
-        "blue_archer.glb": "41f84ec0480f37d8210faf89ec1de1c35a2769613e8113c5b290b83095d34a18",
-        "cyber_dragon.glb": {
-          "hash": "a8d26a009f7c6d272f38126efee41e101eb4668ba602eb7f927ac69a30e36112",
-          "y_offset": 14,
-          "ignore_player_color": true
-        },
-        "dark_iron_ogre.glb": {
-          "hash": "bf86d502b4ec3cec33d0c62a09d65f8c85449e8ccc9db1f4068c43fc83af3f7c",
-          "ignore_player_color": true
-        },
-        "dragon_titan.glb": "3c7a5dc743af239ec0e7eabdd5fd26bd7a798b949fef471aa4e0e50d835e58e3",
-        "flame_drake.glb": {
-          "hash": "8d3dfaed8ce87d091b75767cd9474eedd3109a31626bdbcbb1faa43b10cae808",
-          "y_offset": 14,
-          "ignore_player_color": true
-        },
-        "forest_goblin.glb": {
-          "hash": "a66d4bd32cd7896bcb482778f46a934a84466aa2c787f8c38bf49c4dd36315af",
-          "ignore_player_color": true
-        },
-        "giant_rock_golem.glb": {
-          "hash": "18538b990b4536e47159947568ffd634dab57c6f0dc62aff6cd2b44f4d68837a",
-          "ignore_player_color": true
-        },
-        "mech_spider_monster.glb": {
-          "hash": "837be1054af19e8d2274ff9953cf49eadc1722381dc0ab55ae46f059a5b74296",
-          "ignore_player_color": true
-        },
-        "zombie_soldier.glb": {
-          "hash": "dedf67796e1ee8d309dc73b4bc88d6cd20af433d66bcad49abdaa19ca15dea2f",
-          "ignore_player_color": true
-        },
-        "zombie_warrior.glb": {
-          "hash": "e2f1400483177e60e938808a049d514035d3cacd45cef68263e1cb44def4d3b4",
-          "ignore_player_color": true
-        },
-        "orc_archer.glb": {
-          "hash": "f9189130f71340877df0add226e84a2cf57a9a9ac720c5176eb9c43905a78010",
-          "ignore_player_color": true
-        },
-        "troll_warrior.glb": {
-          "hash": "c623611d0c5de5c596bc62fa566016a9d78b62cd6f2964a108c80da385cce7bf",
-          "ignore_player_color": true
-        },
-        "skeleton_warrior.glb": {
-          "hash": "cf9b4061fc0c64e8e691b768d9e0e51ee94c689171f1baf4c2138da8462b4df4",
-          "ignore_player_color": true
-        },
-        "undead_knight_scavenger.glb": {
-          "hash": "d7c63a88e1aab96cf290ab5b6d980210c7bc4a5696382917aa1f9f823afe2ed4",
-          "ignore_player_color": true
-        },
-        "stone_golem_warrior.glb": {
-          "hash": "f873470e3a448e9850cc2cb43d8fcd5efa8736e9804f6110dc4d4b6566e9fb4c",
-          "ignore_player_color": true
-        },
-        "heavy_mech_warrior.glb": {
-          "hash": "2c9766aedd5bf9003675c651eb1a5918b7bbcfda74794225e7d46b3491498f21",
-          "ignore_player_color": true
-        },
-        "warrior_giant.glb": {
-          "hash": "b41577b5f8df1a7bd6f2c7ae081a0f2bfa5d544fdcb425e3dc9b988798f572e6",
-          "ignore_player_color": true
-        },
-        "blue_dragon.glb": {
-          "hash": "0bd5d3e8766981f0d3e9b32483fdb231fce0c961b50dc10833749caecea19b63",
-          "y_offset": 14,
-          "ignore_player_color": true
-        },
-        "ice_dragon_beast.glb": {
-          "hash": "2f9747332f92e0254ff5af8994c359afef068bf349ad04f9a1959849600d4189",
-          "y_offset": 14,
-          "ignore_player_color": true
-        },
-        "dragon_war_mount.glb": {
-          "hash": "e76002b98f45d4ca9eb849133e0fe90d3dbf6cceb96610518a3157dec22f2836",
-          "y_offset": 9,
-          "ignore_player_color": true
-        }
-      },
-      "environment": {
-        "fantasy_tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57",
-        "goldmine.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
-        "mountain_terrain.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
-        "rock.glb": "5d8354fa77fad05a7e9982afd4936893251536c6b354a53e5a927a7773f176d8",
-        "rock_formation.glb": "eeae68bca5c0ff461d1d8498363ccd93f351da16f4b57b860ac5b46c1f0c98e3",
-        "rock_spire.glb": "add7591cca4bb38a065dd6a34b9edb9a6ebc853a68aaabea11a7fbf9216508c9",
-        "spiked_crab.glb": "c67499a4538e15b63ff30185e1f26f355ebd7ded172ed06f08e6aabb80c9cf90",
-        "tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57"
-      },
-      "props": {
-        "architectural_components.glb": "d81a6b735706bb71b4f15d9287dcf2c5ca35c239e53d74ecf8b68595cd4584b8",
-        "warrior.glb": "09fa899c6e3bf8896d0cbf4ad8860dc98a1fa9a3e8196fd455b27d3f90cabffa",
-        "warrior_knight_2.glb": "348d2971acafa8691019522d522681d8125e96b7396fd493503a8f5da407142a",
-        "wooden_box.glb": "77c1d0b4dffbb8be6f702aa39ca737648f18f7c55fed75dac789c295a6356430"
-      },
-      "resources": {
-        "coniferous_tree.glb": "29be927fb4e36f399fc6d99d799aa34ad9be8e781d92d6983eece5c3846d0f44",
-        "crystal_peak.glb": "412dab477df00d9fb8b5ca0dbbd90d684195e559367549a45ed2f2882410a206"
-      }
-    },
-    "icons": {
-      "victory_flag.png": "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
-      "wood_logs.png": "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
-    },
-    "skyboxes": {
-      "jade_shrine.png": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
-      "star_reach.png": "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
-    },
-    "textures": {
-      "dead_grass.ktx2": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
-      "hard_granite.ktx2": {
-        "hash": "aed15ffe3315649d09b9671a015a1ed2a1eb9363d1511f10e8315824e4038871",
-        "stochastic_tile_size": 3,
-        "tile_mode": "Grid",
-        "uv_scale": 0.6
-      },
-      "holy_stone.ktx2": {
-        "hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Grid",
-        "uv_scale": 0.65
-      },
-      "rocky_cliff.ktx2": {
-        "hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Stochastic",
-        "uv_scale": 1.3
-      },
-      "stone_path.ktx2": {
-        "hash": "9e23595e473b17d2f4163191d70d1aeb506490c09479151da187fcbe3609ae3b",
-        "stochastic_tile_size": 0.95,
-        "tile_mode": "Stochastic",
-        "uv_scale": 0.75
-      },
-      "tundra_frost.ktx2": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
-      "wild_grass.ktx2": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
-      "wild_thicket.ktx2": {
-        "hash": "8be1a5b647ea1b8772d4b4a7ce39a2c10a3dbb7a5fd68698bd2d0e5f427526a5",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Stochastic",
-        "uv_scale": 1.25
-      }
-    },
-    "vfx_spritesheets": {
-      "arcane_surge_sheet.png": {
-        "columns": 4,
-        "hash": "5dc4b22b6c5f4c5c40f91cf4929d04667bae13e642f0ad4813b6b83dd4255059",
-        "rows": 4
-      },
-      "solar_flare_sheet.png": {
-        "columns": 4,
-        "hash": "9dc2f9b91f8af2eee0d174fa246ab818fc626201f629a175f173e9b01d9147c1",
-        "rows": 4
-      }
-    },
-    "animations": {
-      "bored___standing_around_bored_idle.ranim": "979a642d48705fc903a1c2e98ac71660cf1399ad462dc0d3add505b7f919ea84",
-      "standard_walk___standard_walk.ranim": "5c48f7b2c6ad1e735d1e3644361007dc4175a7c716f83817797ed572c6819b22",
-      "upward_thrust___upward_weapon_thrust.ranim": "19c2fc338a0d52ee36cab89f730245999368d239a662f84383a0a9f2adebe083",
-      "death___death_from_standing_idle.ranim": "7454fae0c375bc391a9f807f21f7edfd6d09e26b146ada81311b80c4972b1568",
-      "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim": "4c389cdf83c9eb5e8bc342486ace70c759e34897ef8a41c73ac4bc3cb8888568",
-      "magic_spell_casting___casting_a_spell_with_one_hand.ranim": "396b0033881d3dc63a27f772c19d272fb152a056dd861af67059e9d8ce693d41",
-      "standing_idle_01___standing_idle_with_bow.ranim": "4435b04bc2b6d4236175dc21881983b480a21e944728bd507b6e59e5f565295a",
-      "shooting_arrow___shooting_with_bow_and_arrow.ranim": "d85d0493b9d20e5c8aa80f391fcfce2680ae0a691e49639842fcd788c08b8ffa",
-      "standing_death_backward_01___death_reaction_falling_backwards_with_bow.ranim": "a0b1838217b65b5c58072417b49a1b407ec24e4ea803e3a2ac0984c0c74082f3",
-      "zombie_idle___zombie_alert_idle.ranim": "924b3c422826ff0e6128bffc9dced990cc4bb51e8ee56be786805a10fd25fad1",
-      "walking___zombie_walking.ranim": "860914ea171c84197af009d7e02c0673298625c2a720ac606308397c2865c1c2",
-      "zombie_attack___zombie_overhead_two_hand_attack.ranim": "8e309f71a0f78817f74cfe84d3667f24601d7de0fafdb99b9a8eac302eb71a84",
-      "zombie_death___zombie_getting_hit_and_falling_onto_back.ranim": "a6fd2c09bfcd6878b089867a717a2ea2f90f0c15d98d5ee5f0f82b58440f1a85",
-      "zombie_idle___zombie_standing_idle.ranim": "a3c37ddc5edd78d8afc4223e5c0fca1ea9f5842b7affd1644b70fb1eadda5e59",
-      "walking___creeping_zombie_walk.ranim": "4e5e5b680a9a1aff880bea84ed71a03d4b402a55445ce463ce36fc9d3a4c3518",
-      "zombie_dying___zombie_getting_hit_and_falling_forward.ranim": "22a4dc40aeca685c3d44feebe6d0bd440bd1e51dae7096e66247963b7915619b"
-    }
-  },
-  "ModelOffsets": {
-    "cyber_dragon.glb": 14,
-    "dragon_titan_boss.glb": 9,
-    "flame_drake.glb": 14,
-    "adventurer.glb": 1.4901164,
-    "blue_dragon.glb": 14,
-    "ice_dragon_beast.glb": 14,
-    "dragon_war_mount.glb": 9
-  },
-  "ModelCollisionCircleRatios": {
-    "adventurer.glb": 0.75
-  },
-  "ModelObstacleRadii": {},
-  "ModelBrightness": {},
-  "ModelGenerateNormals": {},
-  "ModelIgnorePlayerColor": {
-    "cyber_dragon.glb": true,
-    "dark_iron_ogre.glb": true,
-    "dragon_titan_boss.glb": true,
-    "flame_drake.glb": true,
-    "forest_goblin.glb": true,
-    "giant_rock_golem.glb": true,
-    "mech_spider_monster.glb": true,
-    "survivor_hero.glb": true,
-    "zombie_soldier.glb": true,
-    "zombie_warrior.glb": true,
-    "orc_archer.glb": true,
-    "troll_warrior.glb": true,
-    "skeleton_warrior.glb": true,
-    "undead_knight_scavenger.glb": true,
-    "stone_golem_warrior.glb": true,
-    "heavy_mech_warrior.glb": true,
-    "warrior_giant.glb": true,
-    "blue_dragon.glb": true,
-    "ice_dragon_beast.glb": true,
-    "dragon_war_mount.glb": true
-  }
+	"Assets": {
+		"animations": {
+			"bored___standing_around_bored_idle.ranim": "979a642d48705fc903a1c2e98ac71660cf1399ad462dc0d3add505b7f919ea84",
+			"death___death_from_standing_idle.ranim": "7454fae0c375bc391a9f807f21f7edfd6d09e26b146ada81311b80c4972b1568",
+			"heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim": "4c389cdf83c9eb5e8bc342486ace70c759e34897ef8a41c73ac4bc3cb8888568",
+			"magic_spell_casting___casting_a_spell_with_one_hand.ranim": "396b0033881d3dc63a27f772c19d272fb152a056dd861af67059e9d8ce693d41",
+			"shooting_arrow___shooting_with_bow_and_arrow.ranim": "d85d0493b9d20e5c8aa80f391fcfce2680ae0a691e49639842fcd788c08b8ffa",
+			"standard_walk___standard_walk.ranim": "5c48f7b2c6ad1e735d1e3644361007dc4175a7c716f83817797ed572c6819b22",
+			"standing_death_backward_01___death_reaction_falling_backwards_with_bow.ranim": "a0b1838217b65b5c58072417b49a1b407ec24e4ea803e3a2ac0984c0c74082f3",
+			"standing_idle_01___standing_idle_with_bow.ranim": "4435b04bc2b6d4236175dc21881983b480a21e944728bd507b6e59e5f565295a",
+			"upward_thrust___upward_weapon_thrust.ranim": "19c2fc338a0d52ee36cab89f730245999368d239a662f84383a0a9f2adebe083",
+			"walking___creeping_zombie_walk.ranim": "4e5e5b680a9a1aff880bea84ed71a03d4b402a55445ce463ce36fc9d3a4c3518",
+			"walking___zombie_walking.ranim": "860914ea171c84197af009d7e02c0673298625c2a720ac606308397c2865c1c2",
+			"zombie_attack___zombie_overhead_two_hand_attack.ranim": "8e309f71a0f78817f74cfe84d3667f24601d7de0fafdb99b9a8eac302eb71a84",
+			"zombie_death___zombie_getting_hit_and_falling_onto_back.ranim": "a6fd2c09bfcd6878b089867a717a2ea2f90f0c15d98d5ee5f0f82b58440f1a85",
+			"zombie_dying___zombie_getting_hit_and_falling_forward.ranim": "22a4dc40aeca685c3d44feebe6d0bd440bd1e51dae7096e66247963b7915619b",
+			"zombie_idle___zombie_alert_idle.ranim": "924b3c422826ff0e6128bffc9dced990cc4bb51e8ee56be786805a10fd25fad1",
+			"zombie_idle___zombie_standing_idle.ranim": "a3c37ddc5edd78d8afc4223e5c0fca1ea9f5842b7affd1644b70fb1eadda5e59"
+		},
+		"decals": {
+			"acid_drip.png": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
+			"arcane_spark.png": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
+		},
+		"glb": {
+			"building": {
+				"ancient_altar.glb": "1fbd286dfd0973eed9ee6339a67b0e08daf65eb2614268033584c737b3edc31f",
+				"crystal_tree.glb": "26e98630d81ae760abe8ae16c6d5a2a12aaf6199457da11f6948d181849a200a",
+				"golden_temple.glb": "dae71092cf6beec4bfae9dab9e53b83acb3c910b07eeb7561aa5e5e9763e6fd1",
+				"ice_tower.glb": "c328b5d95376cba8ab9de4a635d73623661041f606b6cc0ba9cd4c19fefe418c",
+				"magic_tower.glb": "a34bdc0484bf19c0c5c59542df27e30e45376dab9232015f8eca9d77c45d2c2f",
+				"skull_tower.glb": "bbe65c925e71a6cc81c748b80e50df545141d96e6dcb1cbf7462d5ebefe3d7a1",
+				"stone_tower.glb": "1f068693872ea38d989d5da619165403acf03f90a0c0eec008c1e5b598ad1160",
+				"tower.glb": "9ad1cd8dd612c0bbbc815ed12940cfc155775f52beff543df04e16fcf83763e6",
+				"tower_1.glb": "580edd489cc482ed3241680f3f4442db4a9cfaff2321d431757818f8f3a2c6c5",
+				"volcano_entrance.glb": "570580e3f5a8102de2826d6d9c787a19e1f1cf0ae197767b92a7a723c94eda0b",
+				"wooden_tower.glb": "4bc5ab2de185b68fc81cd44b46e83f9baad87c1306d676bfe1b0a2769b14bff2",
+				"wooden_workshop.glb": "573de923d13bdb931652414c9ffd440d3133e1302f38d9e7afc71108a11cb71c"
+			},
+			"character": {
+				"adventurer.glb": {
+					"collision_circle_ratio": 0.75,
+					"hash": "32ac544d4264a85ed462fd6ae21a675fd611be5b54b994f571537c456373568b",
+					"normal_mode": "Flat",
+					"y_offset": 1.4901164
+				},
+				"armor_knight.glb": "2f024de61febe555971aec71fd6ddfd0810baef29a99e5d1d137d9f0a1d59265",
+				"armored_dragon.glb": "1823029d3e18ba78f4c2808f3ae1f6b447a806e810fb160bc7f2ad36f25e1c52",
+				"black_armored_robot.glb": "b15280787c896679eb26eb1c2f03ab6c41a46c79cc0dc5a3e36bf4a2bafba827",
+				"blue_archer.glb": "41f84ec0480f37d8210faf89ec1de1c35a2769613e8113c5b290b83095d34a18",
+				"blue_dragon.glb": {
+					"hash": "0bd5d3e8766981f0d3e9b32483fdb231fce0c961b50dc10833749caecea19b63",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5,
+					"y_offset": 14
+				},
+				"cyber_dragon.glb": {
+					"hash": "a8d26a009f7c6d272f38126efee41e101eb4668ba602eb7f927ac69a30e36112",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5,
+					"y_offset": 14
+				},
+				"dark_iron_ogre.glb": {
+					"hash": "bf86d502b4ec3cec33d0c62a09d65f8c85449e8ccc9db1f4068c43fc83af3f7c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"dragon_titan.glb": "3c7a5dc743af239ec0e7eabdd5fd26bd7a798b949fef471aa4e0e50d835e58e3",
+				"dragon_war_mount.glb": {
+					"hash": "e76002b98f45d4ca9eb849133e0fe90d3dbf6cceb96610518a3157dec22f2836",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5,
+					"y_offset": 9
+				},
+				"flame_drake.glb": {
+					"hash": "8d3dfaed8ce87d091b75767cd9474eedd3109a31626bdbcbb1faa43b10cae808",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5,
+					"y_offset": 14
+				},
+				"forest_goblin.glb": {
+					"hash": "a66d4bd32cd7896bcb482778f46a934a84466aa2c787f8c38bf49c4dd36315af",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"giant_rock_golem.glb": {
+					"hash": "18538b990b4536e47159947568ffd634dab57c6f0dc62aff6cd2b44f4d68837a",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"heavy_mech_warrior.glb": {
+					"hash": "2c9766aedd5bf9003675c651eb1a5918b7bbcfda74794225e7d46b3491498f21",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"ice_dragon_beast.glb": {
+					"hash": "2f9747332f92e0254ff5af8994c359afef068bf349ad04f9a1959849600d4189",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5,
+					"y_offset": 14
+				},
+				"mech_spider_monster.glb": {
+					"hash": "837be1054af19e8d2274ff9953cf49eadc1722381dc0ab55ae46f059a5b74296",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"orc_archer.glb": {
+					"hash": "f9189130f71340877df0add226e84a2cf57a9a9ac720c5176eb9c43905a78010",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"skeleton_warrior.glb": {
+					"hash": "cf9b4061fc0c64e8e691b768d9e0e51ee94c689171f1baf4c2138da8462b4df4",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"stone_golem_warrior.glb": {
+					"hash": "f873470e3a448e9850cc2cb43d8fcd5efa8736e9804f6110dc4d4b6566e9fb4c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"troll_warrior.glb": {
+					"hash": "c623611d0c5de5c596bc62fa566016a9d78b62cd6f2964a108c80da385cce7bf",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"undead_knight_scavenger.glb": {
+					"hash": "d7c63a88e1aab96cf290ab5b6d980210c7bc4a5696382917aa1f9f823afe2ed4",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"warrior_giant.glb": {
+					"hash": "b41577b5f8df1a7bd6f2c7ae081a0f2bfa5d544fdcb425e3dc9b988798f572e6",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"zombie_soldier.glb": {
+					"hash": "dedf67796e1ee8d309dc73b4bc88d6cd20af433d66bcad49abdaa19ca15dea2f",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"zombie_warrior.glb": {
+					"hash": "e2f1400483177e60e938808a049d514035d3cacd45cef68263e1cb44def4d3b4",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.5
+				}
+			},
+			"environment": {
+				"fantasy_tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57",
+				"goldmine.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
+				"mountain_terrain.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
+				"rock.glb": "5d8354fa77fad05a7e9982afd4936893251536c6b354a53e5a927a7773f176d8",
+				"rock_formation.glb": "eeae68bca5c0ff461d1d8498363ccd93f351da16f4b57b860ac5b46c1f0c98e3",
+				"rock_spire.glb": "add7591cca4bb38a065dd6a34b9edb9a6ebc853a68aaabea11a7fbf9216508c9",
+				"spiked_crab.glb": "c67499a4538e15b63ff30185e1f26f355ebd7ded172ed06f08e6aabb80c9cf90",
+				"tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57"
+			},
+			"projectiles": {
+				"ice_crystal_shard.glb": "d9a371fba55f431cf2310a7bc91baba07fc8a4e401593bcbc3adbae42d982721",
+				"magma_crystal_4.glb": "e498eaeb64fa92fadddb6e506e9c10ca0d803c1ed21a5a1f721df2356957e17b",
+				"spear_projectile_2.glb": "251876bd0a221ac00fc60579b540cd7f8e9737594702304855637abff9e9b7a6"
+			},
+			"props": {
+				"architectural_components.glb": "d81a6b735706bb71b4f15d9287dcf2c5ca35c239e53d74ecf8b68595cd4584b8",
+				"warrior.glb": "09fa899c6e3bf8896d0cbf4ad8860dc98a1fa9a3e8196fd455b27d3f90cabffa",
+				"warrior_knight_2.glb": "348d2971acafa8691019522d522681d8125e96b7396fd493503a8f5da407142a",
+				"wooden_box.glb": "77c1d0b4dffbb8be6f702aa39ca737648f18f7c55fed75dac789c295a6356430"
+			},
+			"resources": {
+				"coniferous_tree.glb": "29be927fb4e36f399fc6d99d799aa34ad9be8e781d92d6983eece5c3846d0f44",
+				"crystal_peak.glb": "412dab477df00d9fb8b5ca0dbbd90d684195e559367549a45ed2f2882410a206"
+			}
+		},
+		"icons": {
+			"victory_flag.png": "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
+			"wood_logs.png": "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
+		},
+		"ribbon_textures": {
+			"arcane_rune_flare.png": "7f3f60a7028d0834a4d3bdacf006d82f1470c3a633d790a3e25802f607f6e832",
+			"frost_shard_trail.png": "d8356778224906c46ba87eca544ac5d0841f1b86a0787d3c2647d6ec1617e75a",
+			"magma_flow_lava_vein.png": "c4cb448102163f09b671830dd2b9624c4e577b8fbe874fdd9f956d7f8576efd1"
+		},
+		"skyboxes": {
+			"jade_shrine.png": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
+			"star_reach.png": "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
+		},
+		"textures": {
+			"dead_grass.ktx2": {
+				"hash": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
+				"swatchIndex": 0
+			},
+			"hard_granite.ktx2": {
+				"hash": "aed15ffe3315649d09b9671a015a1ed2a1eb9363d1511f10e8315824e4038871",
+				"stochastic_tile_size": 3,
+				"swatchIndex": 1,
+				"tile_mode": "Grid",
+				"uv_scale": 0.6
+			},
+			"holy_stone.ktx2": {
+				"hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
+				"stochastic_tile_size": 0.5,
+				"swatchIndex": 2,
+				"tile_mode": "Grid",
+				"uv_scale": 0.65
+			},
+			"rocky_cliff.ktx2": {
+				"hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
+				"stochastic_tile_size": 0.5,
+				"swatchIndex": 3,
+				"tile_mode": "Stochastic",
+				"uv_scale": 1.3
+			},
+			"stone_path.ktx2": {
+				"hash": "9e23595e473b17d2f4163191d70d1aeb506490c09479151da187fcbe3609ae3b",
+				"stochastic_tile_size": 0.95,
+				"swatchIndex": 4,
+				"tile_mode": "Stochastic",
+				"uv_scale": 0.75
+			},
+			"tundra_frost.ktx2": {
+				"hash": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
+				"swatchIndex": 5
+			},
+			"wild_grass.ktx2": {
+				"hash": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
+				"swatchIndex": 6
+			},
+			"wild_thicket.ktx2": {
+				"hash": "8be1a5b647ea1b8772d4b4a7ce39a2c10a3dbb7a5fd68698bd2d0e5f427526a5",
+				"stochastic_tile_size": 0.5,
+				"swatchIndex": 7,
+				"tile_mode": "Stochastic",
+				"uv_scale": 1.25
+			}
+		},
+		"vfx_spritesheets": {
+			"arcane_surge_sheet.png": {
+				"columns": 4,
+				"hash": "5dc4b22b6c5f4c5c40f91cf4929d04667bae13e642f0ad4813b6b83dd4255059",
+				"rows": 4
+			},
+			"solar_flare_sheet.png": {
+				"columns": 4,
+				"hash": "9dc2f9b91f8af2eee0d174fa246ab818fc626201f629a175f173e9b01d9147c1",
+				"rows": 4
+			}
+		}
+	},
+	"CustomAbilities": [
+		{
+			"AbilityId": "perk_choose_1",
+			"AbilityType": "instant_spell",
+			"Cooldown": 0,
+			"Description": "Comprar Oferta 1 de la tienda con oro (permanente y acumulable, o escribe -1).",
+			"IconPath": "res://Assets/UI/scroll_icon.png",
+			"ManaCost": 0,
+			"Name": "[Q] Comprar Oferta 1",
+			"TargetRange": 0
+		},
+		{
+			"AbilityId": "perk_choose_2",
+			"AbilityType": "instant_spell",
+			"Cooldown": 0,
+			"Description": "Comprar Oferta 2 de la tienda con oro (permanente y acumulable, o escribe -2).",
+			"IconPath": "res://Assets/UI/golden_hammers.png",
+			"ManaCost": 0,
+			"Name": "[W] Comprar Oferta 2",
+			"TargetRange": 0
+		},
+		{
+			"AbilityId": "perk_choose_3",
+			"AbilityType": "instant_spell",
+			"Cooldown": 0,
+			"Description": "Comprar Oferta 3 de la tienda con oro (permanente y acumulable, o escribe -3).",
+			"IconPath": "res://Assets/UI/magic_upgrade_arrow.png",
+			"ManaCost": 0,
+			"Name": "[E] Comprar Oferta 3",
+			"TargetRange": 0
+		},
+		{
+			"AbilityId": "perk_reroll",
+			"AbilityType": "instant_spell",
+			"Cooldown": 0,
+			"Description": "Reroll de la tienda de habilidades (1ro gratis, luego 100g, o escribe -reroll).",
+			"IconPath": "res://Assets/UI/gold_coin.png",
+			"ManaCost": 0,
+			"Name": "[R] Reroll Tienda",
+			"TargetRange": 0
+		},
+		{
+			"AbilityId": "hero_meteor_spell",
+			"AbilityType": "target_spell",
+			"AreaOfEffectRadius": 4,
+			"Cooldown": 15,
+			"Damage": 120,
+			"Description": "[D] Meteorito Igneo — Lanza un meteorito colosal sobre el area objetivo infligiendo 120 de dano en area.",
+			"IconPath": "res://Assets/UI/fire_spell.png",
+			"ManaCost": 0,
+			"Name": "[D] Meteorito Igneo",
+			"TargetRange": 35
+		}
+	],
+	"CustomBuildings": [],
+	"CustomItems": [],
+	"CustomProps": [],
+	"CustomResources": [],
+	"CustomUnits": [
+		{
+			"Animations": {
+				"Attack": [
+					"upward_thrust___upward_weapon_thrust.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 10,
+			"ArmorType": "heavy",
+			"AttackCooldown": 1.6,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 30,
+			"Description": "Dragón cibernético volador. Vuela en línea recta directo al castillo.",
+			"GoldBounty": 20,
+			"IgnorePlayerColor": true,
+			"MaxHp": 450,
+			"ModelPath": "Assets/models/units/blue_dragon.glb",
+			"Name": "Cyber Dragon",
+			"NormalMode": "Flat",
+			"PathingType": 4,
+			"PopCost": 2,
+			"ProductionTime": 0,
+			"Range": 9,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 9,
+			"UnitId": "cyber_dragon",
+			"YOffset": 14
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 14,
+			"ArmorType": "heavy",
+			"AttackCooldown": 2,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 45,
+			"Description": "Ogro titánico de hierro oscuro. Absorbe grandes cantidades de daño.",
+			"GoldBounty": 20,
+			"IgnorePlayerColor": true,
+			"MaxHp": 750,
+			"ModelPath": "Assets/models/units/warrior_giant.glb",
+			"Name": "Dark Iron Ogre",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 2,
+			"ProductionTime": 0,
+			"Range": 2.2,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 3,
+			"UnitId": "dark_iron_ogre"
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 20,
+			"ArmorType": "heavy",
+			"AttackCooldown": 1.5,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 150,
+			"Description": "Gran Raid Boss Oleada 15. Colosal dragón titán. Entra en Enrage al 50% de vida.",
+			"GoldBounty": 1000,
+			"IgnorePlayerColor": true,
+			"MaxHp": 12000,
+			"ModelPath": "Assets/models/units/dragon_war_mount.glb",
+			"Name": "Dragon Titan Boss",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 20,
+			"ProductionTime": 0,
+			"Range": 4,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 5.5,
+			"UnitId": "dragon_titan_boss",
+			"YOffset": 9
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"upward_thrust___upward_weapon_thrust.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 8,
+			"ArmorType": "heavy",
+			"AttackCooldown": 1.4,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 26,
+			"Description": "Draco igneo volador. Asalta las defensas sobrevolando obstáculos.",
+			"GoldBounty": 20,
+			"IgnorePlayerColor": true,
+			"MaxHp": 380,
+			"ModelPath": "Assets/models/units/ice_dragon_beast.glb",
+			"Name": "Flame Drake",
+			"NormalMode": "Flat",
+			"PathingType": 4,
+			"PopCost": 2,
+			"ProductionTime": 0,
+			"Range": 8,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 8,
+			"UnitId": "flame_drake",
+			"YOffset": 14
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"upward_thrust___upward_weapon_thrust.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 1,
+			"ArmorType": "light",
+			"AttackCooldown": 1,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 10,
+			"Description": "Goblin del bosque sumamente rápido y evasivo.",
+			"GoldBounty": 10,
+			"IgnorePlayerColor": true,
+			"MaxHp": 70,
+			"ModelPath": "Assets/models/units/troll_warrior.glb",
+			"Name": "Forest Goblin",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 1,
+			"ProductionTime": 0,
+			"Range": 1.8,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 9,
+			"UnitId": "forest_goblin"
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 12,
+			"ArmorType": "heavy",
+			"AttackCooldown": 2.2,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 60,
+			"Description": "Mini-Boss Oleada 5. Coloso de roca inmune a efectos de ralentización.",
+			"GoldBounty": 150,
+			"IgnorePlayerColor": true,
+			"MaxHp": 3200,
+			"ModelPath": "Assets/models/units/stone_golem_warrior.glb",
+			"Name": "Giant Rock Golem",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 5,
+			"ProductionTime": 0,
+			"Range": 2.5,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 3.5,
+			"UnitId": "giant_rock_golem"
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"upward_thrust___upward_weapon_thrust.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"bored___standing_around_bored_idle.ranim"
+				],
+				"Walk": [
+					"standard_walk___standard_walk.ranim"
+				]
+			},
+			"Armor": 15,
+			"ArmorType": "heavy",
+			"AttackCooldown": 1.8,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 90,
+			"Description": "Mini-Boss Oleada 10. Arácnido mecánico demoledor con daño masivo a estructuras.",
+			"GoldBounty": 250,
+			"IgnorePlayerColor": true,
+			"MaxHp": 5000,
+			"ModelPath": "Assets/models/units/heavy_mech_warrior.glb",
+			"Name": "Mech Spider Monster",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 8,
+			"ProductionTime": 0,
+			"Range": 3,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 4.5,
+			"UnitId": "mech_spider_monster"
+		},
+		{
+			"Abilities": [
+				"perk_choose_1",
+				"perk_choose_2",
+				"perk_choose_3",
+				"perk_reroll",
+				"hero_meteor_spell"
+			],
+			"Animations": {
+				"Attack": [
+					"shooting_arrow___shooting_with_bow_and_arrow.ranim"
+				],
+				"Death": [
+					"standing_death_backward_01___death_reaction_falling_backwards_with_bow.ranim"
+				],
+				"Idle": [
+					"standing_idle_01___standing_idle_with_bow.ranim"
+				],
+				"Spell_Cast": [
+					"magic_spell_casting___casting_a_spell_with_one_hand.ranim"
+				]
+			},
+			"Armor": 5,
+			"ArmorType": "light",
+			"AttackCooldown": 0.85,
+			"AttackType": "ranged",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 45,
+			"Description": "Arquero central inmóvil del Survivor. Dispara solo a los enemigos en rango. Mejóralo con comandos de chat (-help) o sus botones de habilidad.",
+			"GoldBounty": 0,
+			"IgnorePlayerColor": true,
+			"IsHero": true,
+			"MaxHp": 1200,
+			"ModelPath": "Assets/models/units/orc_archer.glb",
+			"Name": "Héroe del Survivor",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"PopCost": 0,
+			"ProductionTime": 0,
+			"Range": 38,
+			"Scale": 1.5,
+			"ScanRadius": 45,
+			"Speed": 0,
+			"UnitId": "survivor_hero",
+			"Weapons": [
+				"survivor_arrow"
+			]
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"zombie_attack___zombie_overhead_two_hand_attack.ranim"
+				],
+				"Death": [
+					"zombie_death___zombie_getting_hit_and_falling_onto_back.ranim"
+				],
+				"Idle": [
+					"zombie_idle___zombie_alert_idle.ranim"
+				],
+				"Walk": [
+					"walking___zombie_walking.ranim"
+				]
+			},
+			"Armor": 2,
+			"ArmorType": "light",
+			"AttackCooldown": 1.4,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 13,
+			"Description": "Infantería no-muerta enjambre básica. Débil pero numerosa.",
+			"GoldBounty": 10,
+			"IgnorePlayerColor": true,
+			"MaxHp": 110,
+			"ModelPath": "Assets/models/units/skeleton_warrior.glb",
+			"Name": "Zombie Soldier",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 1,
+			"ProductionTime": 0,
+			"Range": 1.8,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 5,
+			"UnitId": "zombie_soldier"
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+				],
+				"Death": [
+					"zombie_dying___zombie_getting_hit_and_falling_forward.ranim"
+				],
+				"Idle": [
+					"zombie_idle___zombie_standing_idle.ranim"
+				],
+				"Walk": [
+					"walking___creeping_zombie_walk.ranim"
+				]
+			},
+			"Armor": 8,
+			"ArmorType": "heavy",
+			"AttackCooldown": 1.8,
+			"AttackType": "melee",
+			"CostGold": 0,
+			"CostStone": 0,
+			"CostWood": 0,
+			"Damage": 28,
+			"Description": "Guerrero no-muerto acorazado con armadura pesada.",
+			"GoldBounty": 15,
+			"IgnorePlayerColor": true,
+			"MaxHp": 320,
+			"ModelPath": "Assets/models/units/undead_knight_scavenger.glb",
+			"Name": "Zombie Warrior",
+			"NormalMode": "Flat",
+			"PathingType": 8,
+			"PopCost": 1,
+			"ProductionTime": 0,
+			"Range": 2,
+			"Scale": 1.5,
+			"ScanRadius": 10,
+			"Speed": 4,
+			"UnitId": "zombie_warrior"
+		}
+	],
+	"CustomUpgrades": [],
+	"CustomWeapons": [
+		{
+			"AttackCooldown": 0.85,
+			"AttackType": "ranged",
+			"BaseColor": "#3d2b1f",
+			"Damage": 45,
+			"EmissionColor": "#ffcc44",
+			"EmissionEnergy": 3.5,
+			"ForwardAxisPreset": "-Z",
+			"FresnelColor": "#ffe082",
+			"FresnelFactor": 1.5,
+			"FresnelPower": 3.0,
+			"ImpactVisualEffect": "holylight",
+			"Name": "Flecha del Survivor",
+			"OrientToTrajectory": true,
+			"ProjectileModelPath": "Assets/models/projectiles/spear_projectile_2.glb",
+			"ProjectileSpeed": 42,
+			"Range": 38,
+			"RibbonAdditive": true,
+			"RibbonColor": "#ffd700",
+			"RibbonLifetime": 0.4,
+			"RibbonTaper": true,
+			"RibbonTexture": "Assets/textures/ribbons/arcane_rune_flare.png",
+			"RibbonWidth": 0.35,
+			"WeaponId": "survivor_arrow"
+		},
+		{
+			"AttackCooldown": 0.85,
+			"AttackType": "ranged",
+			"Damage": 50,
+			"EmissionColor": "#ff3300",
+			"EmissionEnergy": 5.5,
+			"ForwardAxisPreset": "-Z",
+			"FresnelColor": "#ffcc00",
+			"ImpactVisualEffect": "fireblast",
+			"Name": "Flecha Explosiva Ignea",
+			"OrientToTrajectory": true,
+			"PointLightColor": "#ff4400",
+			"PointLightEnabled": true,
+			"PointLightIntensity": 2.5,
+			"PointLightRange": 6.0,
+			"ProjectileModelPath": "Assets/models/projectiles/magma_crystal_4.glb",
+			"ProjectileSpeed": 40,
+			"Range": 38,
+			"RibbonAdditive": true,
+			"RibbonColor": "#ff2200",
+			"RibbonLifetime": 0.55,
+			"RibbonTaper": true,
+			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.png",
+			"RibbonWidth": 0.5,
+			"ShaderEffectType": "fire",
+			"WeaponId": "fire_shard"
+		},
+		{
+			"AttackCooldown": 0.85,
+			"AttackType": "ranged",
+			"Damage": 45,
+			"EmissionColor": "#00eeff",
+			"EmissionEnergy": 4.0,
+			"ForwardAxisPreset": "-Z",
+			"FresnelColor": "#aae6ff",
+			"ImpactVisualEffect": "holylight",
+			"Name": "Esquirla de Escarcha",
+			"OrientToTrajectory": true,
+			"PointLightColor": "#00bfff",
+			"PointLightEnabled": true,
+			"PointLightIntensity": 2.0,
+			"PointLightRange": 5.0,
+			"ProjectileModelPath": "Assets/models/projectiles/ice_crystal_shard.glb",
+			"ProjectileSpeed": 38,
+			"Range": 38,
+			"RibbonAdditive": true,
+			"RibbonColor": "#00d4ff",
+			"RibbonLifetime": 0.5,
+			"RibbonTaper": true,
+			"RibbonTexture": "Assets/textures/ribbons/frost_shard_trail.png",
+			"RibbonWidth": 0.45,
+			"ShaderEffectType": "frost",
+			"WeaponId": "frost_shard"
+		},
+		{
+			"ArcHeight": 1.8,
+			"AttackCooldown": 2.0,
+			"AttackType": "ranged",
+			"Damage": 120,
+			"EmissionColor": "#ff2200",
+			"EmissionEnergy": 6.0,
+			"FresnelColor": "#ff8800",
+			"ImpactVisualEffect": "fireblast",
+			"Name": "Meteorito Colosal",
+			"OrientToTrajectory": false,
+			"PointLightColor": "#ff2200",
+			"PointLightEnabled": true,
+			"PointLightIntensity": 4.0,
+			"PointLightRange": 8.0,
+			"ProjectileModelPath": "Assets/models/environment/rock.glb",
+			"ProjectileSpeed": 26,
+			"Range": 35,
+			"RibbonAdditive": true,
+			"RibbonColor": "#ff3300",
+			"RibbonLifetime": 0.7,
+			"RibbonTaper": true,
+			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.png",
+			"RibbonWidth": 0.8,
+			"ShaderEffectType": "fire",
+			"TumbleAngularVelocity": {
+				"X": 2.0,
+				"Y": 3.0,
+				"Z": 1.0
+			},
+			"WeaponId": "boss_meteor"
+		}
+	],
+	"MapProperties": {
+		"CameraBoundsBottom": 90,
+		"CameraBoundsLeft": -90,
+		"CameraBoundsRight": 90,
+		"CameraBoundsTop": -90,
+		"HowToPlayInstructions": [
+			"Protege a tu Héroe Central en el medio de la isla: si muere, la partida termina.",
+			"Cada 20 segundos obtendrás un Draft de 3 Habilidades aleatorias (Normal, Rara, Épica o Maldita). Elige con -1, -2, -3 o los botones de habilidad.",
+			"Usa -reroll para barajar nuevas opciones (1ro gratis, luego cuesta oro incremental).",
+			"Escribe -perks para consultar tu lista de talentos y -stats para ver tus estadísticas.",
+			"Compra mejoras con oro en el chat (-help) o botones del héroe.",
+			"Prepárate en la oleada 15 para la llegada del Dragón Titán (Raid Boss)."
+		],
+		"HowToPlayObjective": "Protege a tu Héroe Central, construye una sinergia letal de habilidades cada 20s y derrota al Dragón Titán en la oleada final.",
+		"MapDescription": "Rogue-lite Survivor: Draft de habilidades aleatorias cada 20s con tiers de sacrificio, combate a 15 oleadas y derrota al colosal Raid Boss.",
+		"MapName": "TOWER SURVIVORS"
+	},
+	"ModelBrightness": {},
+	"ModelCollisionCircleRatios": {
+		"adventurer.glb": 0.75
+	},
+	"ModelGenerateNormals": {},
+	"ModelIgnorePlayerColor": {
+		"blue_dragon.glb": true,
+		"cyber_dragon.glb": true,
+		"dark_iron_ogre.glb": true,
+		"dragon_titan_boss.glb": true,
+		"dragon_war_mount.glb": true,
+		"flame_drake.glb": true,
+		"forest_goblin.glb": true,
+		"giant_rock_golem.glb": true,
+		"heavy_mech_warrior.glb": true,
+		"ice_dragon_beast.glb": true,
+		"mech_spider_monster.glb": true,
+		"orc_archer.glb": true,
+		"skeleton_warrior.glb": true,
+		"stone_golem_warrior.glb": true,
+		"survivor_hero.glb": true,
+		"troll_warrior.glb": true,
+		"undead_knight_scavenger.glb": true,
+		"warrior_giant.glb": true,
+		"zombie_soldier.glb": true,
+		"zombie_warrior.glb": true
+	},
+	"ModelNormalModes": {
+		"adventurer.glb": "Flat",
+		"blue_dragon.glb": "Flat",
+		"cyber_dragon.glb": "Flat",
+		"dark_iron_ogre.glb": "Flat",
+		"dragon_titan_boss.glb": "Flat",
+		"dragon_war_mount.glb": "Flat",
+		"flame_drake.glb": "Flat",
+		"forest_goblin.glb": "Flat",
+		"giant_rock_golem.glb": "Flat",
+		"heavy_mech_warrior.glb": "Flat",
+		"ice_dragon_beast.glb": "Flat",
+		"mech_spider_monster.glb": "Flat",
+		"orc_archer.glb": "Flat",
+		"skeleton_warrior.glb": "Flat",
+		"stone_golem_warrior.glb": "Flat",
+		"survivor_hero.glb": "Flat",
+		"troll_warrior.glb": "Flat",
+		"undead_knight_scavenger.glb": "Flat",
+		"warrior_giant.glb": "Flat",
+		"zombie_soldier.glb": "Flat",
+		"zombie_warrior.glb": "Flat"
+	},
+	"ModelNormalizeLuminance": {},
+	"ModelObstacleRadii": {},
+	"ModelOffsets": {
+		"adventurer.glb": 1.4901164,
+		"blue_dragon.glb": 14,
+		"cyber_dragon.glb": 14,
+		"dragon_titan_boss.glb": 9,
+		"dragon_war_mount.glb": 9,
+		"flame_drake.glb": 14,
+		"ice_dragon_beast.glb": 14
+	},
+	"ModelScales": {
+		"blue_dragon.glb": 1.5,
+		"cyber_dragon.glb": 1.5,
+		"dark_iron_ogre.glb": 1.5,
+		"dragon_titan_boss.glb": 1.5,
+		"dragon_war_mount.glb": 1.5,
+		"flame_drake.glb": 1.5,
+		"forest_goblin.glb": 1.5,
+		"giant_rock_golem.glb": 1.5,
+		"heavy_mech_warrior.glb": 1.5,
+		"ice_dragon_beast.glb": 1.5,
+		"mech_spider_monster.glb": 1.5,
+		"orc_archer.glb": 1.5,
+		"skeleton_warrior.glb": 1.5,
+		"stone_golem_warrior.glb": 1.5,
+		"survivor_hero.glb": 1.5,
+		"troll_warrior.glb": 1.5,
+		"undead_knight_scavenger.glb": 1.5,
+		"warrior_giant.glb": 1.5,
+		"zombie_soldier.glb": 1.5,
+		"zombie_warrior.glb": 1.5
+	}
 }
