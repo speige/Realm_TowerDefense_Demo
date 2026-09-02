@@ -19,18 +19,18 @@
 			"zombie_idle___zombie_standing_idle.ranim": "a3c37ddc5edd78d8afc4223e5c0fca1ea9f5842b7affd1644b70fb1eadda5e59"
 		},
 		"decals": {
-			"acid_drip.png": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
-			"arcane_spark.png": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
+			"acid_drip.rtex": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
+			"arcane_spark.rtex": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
 		},
 		"glb": {
 			"building": {
 				"ancient_altar.glb": "1fbd286dfd0973eed9ee6339a67b0e08daf65eb2614268033584c737b3edc31f",
-				"crystal_tree.glb": "26e98630d81ae760abe8ae16c6d5a2a12aaf6199457da11f6948d181849a200a",
+				"crystal_tree_1.glb": "26e98630d81ae760abe8ae16c6d5a2a12aaf6199457da11f6948d181849a200a",
 				"golden_temple.glb": "dae71092cf6beec4bfae9dab9e53b83acb3c910b07eeb7561aa5e5e9763e6fd1",
-				"ice_tower.glb": "c328b5d95376cba8ab9de4a635d73623661041f606b6cc0ba9cd4c19fefe418c",
-				"magic_tower.glb": "a34bdc0484bf19c0c5c59542df27e30e45376dab9232015f8eca9d77c45d2c2f",
+				"ice_tower_1.glb": "c328b5d95376cba8ab9de4a635d73623661041f606b6cc0ba9cd4c19fefe418c",
+				"magic_tower_4.glb": "a34bdc0484bf19c0c5c59542df27e30e45376dab9232015f8eca9d77c45d2c2f",
 				"skull_tower.glb": "bbe65c925e71a6cc81c748b80e50df545141d96e6dcb1cbf7462d5ebefe3d7a1",
-				"stone_tower.glb": "1f068693872ea38d989d5da619165403acf03f90a0c0eec008c1e5b598ad1160",
+				"stone_tower_14.glb": "1f068693872ea38d989d5da619165403acf03f90a0c0eec008c1e5b598ad1160",
 				"tower.glb": "9ad1cd8dd612c0bbbc815ed12940cfc155775f52beff543df04e16fcf83763e6",
 				"tower_1.glb": "580edd489cc482ed3241680f3f4442db4a9cfaff2321d431757818f8f3a2c6c5",
 				"volcano_entrance.glb": "570580e3f5a8102de2826d6d9c787a19e1f1cf0ae197767b92a7a723c94eda0b",
@@ -164,17 +164,14 @@
 				}
 			},
 			"environment": {
-				"fantasy_tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57",
-				"goldmine.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
+				"fantasy_tree_10.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57",
 				"mountain_terrain.glb": "7bed3821276d31dabc6843ef49190e8c54470dc83446868a41851786fd624078",
-				"rock.glb": "5d8354fa77fad05a7e9982afd4936893251536c6b354a53e5a927a7773f176d8",
-				"rock_formation.glb": "eeae68bca5c0ff461d1d8498363ccd93f351da16f4b57b860ac5b46c1f0c98e3",
+				"rock_formation_7.glb": "eeae68bca5c0ff461d1d8498363ccd93f351da16f4b57b860ac5b46c1f0c98e3",
 				"rock_spire.glb": "add7591cca4bb38a065dd6a34b9edb9a6ebc853a68aaabea11a7fbf9216508c9",
-				"spiked_crab.glb": "c67499a4538e15b63ff30185e1f26f355ebd7ded172ed06f08e6aabb80c9cf90",
-				"tree.glb": "d0a8a5001da5886f796418690a3b7bd6216f3ba5c3965331eacf2b0c43b58d57"
+				"spiked_crab.glb": "c67499a4538e15b63ff30185e1f26f355ebd7ded172ed06f08e6aabb80c9cf90"
 			},
 			"projectiles": {
-				"ice_crystal_shard.glb": "d9a371fba55f431cf2310a7bc91baba07fc8a4e401593bcbc3adbae42d982721",
+				"ice_crystal_shard_5.glb": "d9a371fba55f431cf2310a7bc91baba07fc8a4e401593bcbc3adbae42d982721",
 				"magma_crystal_4.glb": "e498eaeb64fa92fadddb6e506e9c10ca0d803c1ed21a5a1f721df2356957e17b",
 				"spear_projectile_2.glb": "251876bd0a221ac00fc60579b540cd7f8e9737594702304855637abff9e9b7a6"
 			},
@@ -185,79 +182,57 @@
 				"wooden_box.glb": "77c1d0b4dffbb8be6f702aa39ca737648f18f7c55fed75dac789c295a6356430"
 			},
 			"resources": {
-				"coniferous_tree.glb": "29be927fb4e36f399fc6d99d799aa34ad9be8e781d92d6983eece5c3846d0f44",
+				"coniferous_tree_2.glb": "29be927fb4e36f399fc6d99d799aa34ad9be8e781d92d6983eece5c3846d0f44",
 				"crystal_peak.glb": "412dab477df00d9fb8b5ca0dbbd90d684195e559367549a45ed2f2882410a206"
 			}
 		},
 		"icons": {
-			"victory_flag.png": "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
-			"wood_logs.png": "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
+			"victory_flag.rtex": "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
+			"wood_logs.rtex": "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
 		},
 		"ribbon_textures": {
-			"arcane_rune_flare.png": "7f3f60a7028d0834a4d3bdacf006d82f1470c3a633d790a3e25802f607f6e832",
-			"frost_shard_trail.png": "d8356778224906c46ba87eca544ac5d0841f1b86a0787d3c2647d6ec1617e75a",
-			"magma_flow_lava_vein.png": "c4cb448102163f09b671830dd2b9624c4e577b8fbe874fdd9f956d7f8576efd1"
+			"arcane_rune_flare.rtex": "7f3f60a7028d0834a4d3bdacf006d82f1470c3a633d790a3e25802f607f6e832",
+			"frost_shard_trail.rtex": "d8356778224906c46ba87eca544ac5d0841f1b86a0787d3c2647d6ec1617e75a",
+			"magma_flow_lava_vein.rtex": "c4cb448102163f09b671830dd2b9624c4e577b8fbe874fdd9f956d7f8576efd1"
 		},
 		"skyboxes": {
-			"jade_shrine.png": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
-			"star_reach.png": "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
+			"jade_shrine.rtex": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
+			"star_reach.rtex": "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
 		},
 		"textures": {
-			"dead_grass.ktx2": {
-				"hash": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
+			"abyssal_trench_bottom_sediment.rtex": {
+				"hash": "020439b2c9734ac00a4a4e527beee6700c9685c936aba8062acb4ee1c23f3b1a",
+				"scale_factor": 4,
+				"swatchIndex": 3
+			},
+			"ancient_jungle_misty_stone.rtex": {
+				"hash": "836590215dda9eedfd20d099fcb29a711b2c0c7aa701c3bbace6b70c4df0b1f1",
+				"scale_factor": 4,
+				"swatchIndex": 2
+			},
+			"deep_trench_cavern_grit.rtex": {
+				"hash": "6211411bb3b55241cce54cf286a6d6f6735393804570a6690e8da15d31ee930b",
+				"scale_factor": 4,
+				"swatchIndex": 1
+			},
+			"frozen_tundra_arctic_dirt.rtex": {
+				"hash": "7c2472dcc43923dcf07d8db7a12efff31f418ee75a3a82085d920bde5d256871",
+				"scale_factor": 1.3807359,
+				"swatchIndex": 4
+			},
+			"mangrove_swamp_reed_bed.rtex": {
+				"hash": "a14dcfb53fea6ec1eee2b20ec3159bf3ce5dd81b48a7a82f6e6d3003beab1dc1",
+				"scale_factor": 4,
 				"swatchIndex": 0
-			},
-			"hard_granite.ktx2": {
-				"hash": "aed15ffe3315649d09b9671a015a1ed2a1eb9363d1511f10e8315824e4038871",
-				"stochastic_tile_size": 3,
-				"swatchIndex": 1,
-				"tile_mode": "Grid",
-				"uv_scale": 0.6
-			},
-			"holy_stone.ktx2": {
-				"hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
-				"stochastic_tile_size": 0.5,
-				"swatchIndex": 2,
-				"tile_mode": "Grid",
-				"uv_scale": 0.65
-			},
-			"rocky_cliff.ktx2": {
-				"hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
-				"stochastic_tile_size": 0.5,
-				"swatchIndex": 3,
-				"tile_mode": "Stochastic",
-				"uv_scale": 1.3
-			},
-			"stone_path.ktx2": {
-				"hash": "9e23595e473b17d2f4163191d70d1aeb506490c09479151da187fcbe3609ae3b",
-				"stochastic_tile_size": 0.95,
-				"swatchIndex": 4,
-				"tile_mode": "Stochastic",
-				"uv_scale": 0.75
-			},
-			"tundra_frost.ktx2": {
-				"hash": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
-				"swatchIndex": 5
-			},
-			"wild_grass.ktx2": {
-				"hash": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
-				"swatchIndex": 6
-			},
-			"wild_thicket.ktx2": {
-				"hash": "8be1a5b647ea1b8772d4b4a7ce39a2c10a3dbb7a5fd68698bd2d0e5f427526a5",
-				"stochastic_tile_size": 0.5,
-				"swatchIndex": 7,
-				"tile_mode": "Stochastic",
-				"uv_scale": 1.25
 			}
 		},
 		"vfx_spritesheets": {
-			"arcane_surge_sheet.png": {
+			"arcane_surge_sheet.rtex": {
 				"columns": 4,
 				"hash": "5dc4b22b6c5f4c5c40f91cf4929d04667bae13e642f0ad4813b6b83dd4255059",
 				"rows": 4
 			},
-			"solar_flare_sheet.png": {
+			"solar_flare_sheet.rtex": {
 				"columns": 4,
 				"hash": "9dc2f9b91f8af2eee0d174fa246ab818fc626201f629a175f173e9b01d9147c1",
 				"rows": 4
@@ -270,7 +245,7 @@
 			"AbilityType": "instant_spell",
 			"Cooldown": 0,
 			"Description": "Comprar Oferta 1 de la tienda con oro (permanente y acumulable, o escribe -1).",
-			"IconPath": "res://Assets/UI/scroll_icon.png",
+			"IconPath": "res://Assets/UI/scroll_icon.rtex",
 			"ManaCost": 0,
 			"Name": "[Q] Comprar Oferta 1",
 			"TargetRange": 0
@@ -280,7 +255,7 @@
 			"AbilityType": "instant_spell",
 			"Cooldown": 0,
 			"Description": "Comprar Oferta 2 de la tienda con oro (permanente y acumulable, o escribe -2).",
-			"IconPath": "res://Assets/UI/golden_hammers.png",
+			"IconPath": "res://Assets/UI/golden_hammers.rtex",
 			"ManaCost": 0,
 			"Name": "[W] Comprar Oferta 2",
 			"TargetRange": 0
@@ -290,7 +265,7 @@
 			"AbilityType": "instant_spell",
 			"Cooldown": 0,
 			"Description": "Comprar Oferta 3 de la tienda con oro (permanente y acumulable, o escribe -3).",
-			"IconPath": "res://Assets/UI/magic_upgrade_arrow.png",
+			"IconPath": "res://Assets/UI/magic_upgrade_arrow.rtex",
 			"ManaCost": 0,
 			"Name": "[E] Comprar Oferta 3",
 			"TargetRange": 0
@@ -300,7 +275,7 @@
 			"AbilityType": "instant_spell",
 			"Cooldown": 0,
 			"Description": "Reroll de la tienda de habilidades (1ro gratis, luego 100g, o escribe -reroll).",
-			"IconPath": "res://Assets/UI/gold_coin.png",
+			"IconPath": "res://Assets/UI/gold_coin.rtex",
 			"ManaCost": 0,
 			"Name": "[R] Reroll Tienda",
 			"TargetRange": 0
@@ -312,7 +287,7 @@
 			"Cooldown": 15,
 			"Damage": 120,
 			"Description": "[D] Meteorito Igneo — Lanza un meteorito colosal sobre el area objetivo infligiendo 120 de dano en area.",
-			"IconPath": "res://Assets/UI/fire_spell.png",
+			"IconPath": "res://Assets/UI/fire_spell.rtex",
 			"ManaCost": 0,
 			"Name": "[D] Meteorito Igneo",
 			"TargetRange": 35
@@ -751,7 +726,7 @@
 			"RibbonColor": "#ffd700",
 			"RibbonLifetime": 0.4,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/textures/ribbons/arcane_rune_flare.png",
+			"RibbonTexture": "Assets/textures/ribbons/arcane_rune_flare.rtex",
 			"RibbonWidth": 0.35,
 			"WeaponId": "survivor_arrow"
 		},
@@ -777,7 +752,7 @@
 			"RibbonColor": "#ff2200",
 			"RibbonLifetime": 0.55,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.png",
+			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.rtex",
 			"RibbonWidth": 0.5,
 			"ShaderEffectType": "fire",
 			"WeaponId": "fire_shard"
@@ -797,14 +772,14 @@
 			"PointLightEnabled": true,
 			"PointLightIntensity": 2.0,
 			"PointLightRange": 5.0,
-			"ProjectileModelPath": "Assets/models/projectiles/ice_crystal_shard.glb",
+			"ProjectileModelPath": "Assets/models/projectiles/ice_crystal_shard_5.glb",
 			"ProjectileSpeed": 38,
 			"Range": 38,
 			"RibbonAdditive": true,
 			"RibbonColor": "#00d4ff",
 			"RibbonLifetime": 0.5,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/textures/ribbons/frost_shard_trail.png",
+			"RibbonTexture": "Assets/textures/ribbons/frost_shard_trail.rtex",
 			"RibbonWidth": 0.45,
 			"ShaderEffectType": "frost",
 			"WeaponId": "frost_shard"
@@ -831,7 +806,7 @@
 			"RibbonColor": "#ff3300",
 			"RibbonLifetime": 0.7,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.png",
+			"RibbonTexture": "Assets/textures/ribbons/magma_flow_lava_vein.rtex",
 			"RibbonWidth": 0.8,
 			"ShaderEffectType": "fire",
 			"TumbleAngularVelocity": {

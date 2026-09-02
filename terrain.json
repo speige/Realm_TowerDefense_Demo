@@ -47,7 +47,7 @@
 			"PosX": 75,
 			"PosY": 2.472202,
 			"PosZ": 0,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
@@ -55,7 +55,7 @@
 			"PosX": 53.03,
 			"PosY": 2.4717429,
 			"PosZ": 53.03,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 0.77999985,
 			"Scale": 0.99999994
 		},
@@ -63,7 +63,7 @@
 			"PosX": 0,
 			"PosY": 2.472202,
 			"PosZ": 75,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 1.57,
 			"Scale": 1
 		},
@@ -71,7 +71,7 @@
 			"PosX": -53.03,
 			"PosY": 2.4717429,
 			"PosZ": 53.03,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 2.3499987,
 			"Scale": 1
 		},
@@ -79,7 +79,7 @@
 			"PosX": -75,
 			"PosY": 2.472202,
 			"PosZ": 0,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 3.14,
 			"Scale": 1
 		},
@@ -87,7 +87,7 @@
 			"PosX": -53.03,
 			"PosY": 2.4717429,
 			"PosZ": -53.03,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 3.9199991,
 			"Scale": 1
 		},
@@ -95,7 +95,7 @@
 			"PosX": 0,
 			"PosY": 2.472202,
 			"PosZ": -75,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 4.7099977,
 			"Scale": 1
 		},
@@ -103,7 +103,7 @@
 			"PosX": 53.03,
 			"PosY": 2.4717429,
 			"PosZ": -53.03,
-			"PropId": "coniferous_tree",
+			"PropId": "coniferous_tree_2",
 			"RotationY": 5.489999,
 			"Scale": 0.99999994
 		},
