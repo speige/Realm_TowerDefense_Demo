@@ -12,6 +12,13 @@
 			"Name": "Base"
 		},
 		{
+			"MaxX": 66,
+			"MaxZ": 15,
+			"MinX": 60,
+			"MinZ": -15,
+			"Name": "SpawnEast"
+		},
+		{
 			"MaxX": 15,
 			"MaxZ": -60,
 			"MinX": -15,
@@ -26,13 +33,6 @@
 			"Name": "SpawnSouth"
 		},
 		{
-			"MaxX": 66,
-			"MaxZ": 15,
-			"MinX": 60,
-			"MinZ": -15,
-			"Name": "SpawnEast"
-		},
-		{
 			"MaxX": -60,
 			"MaxZ": 15,
 			"MinX": -66,
@@ -43,6 +43,54 @@
 	"Decals": [],
 	"Depth": 128,
 	"Props": [
+		{
+			"PosX": -53.03,
+			"PosY": 2.4717429,
+			"PosZ": -53.03,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.9199991,
+			"Scale": 1
+		},
+		{
+			"PosX": -75,
+			"PosY": 2.472202,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 0,
+			"PosY": 2.472202,
+			"PosZ": -75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 4.7099977,
+			"Scale": 1
+		},
+		{
+			"PosX": -53.03,
+			"PosY": 2.4717429,
+			"PosZ": 53.03,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 2.3499987,
+			"Scale": 1
+		},
+		{
+			"PosX": 53.03,
+			"PosY": 2.4717429,
+			"PosZ": -53.03,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 5.489999,
+			"Scale": 0.99999994
+		},
+		{
+			"PosX": 0,
+			"PosY": 2.472202,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
 		{
 			"PosX": 75,
 			"PosY": 2.472202,
@@ -60,51 +108,35 @@
 			"Scale": 0.99999994
 		},
 		{
-			"PosX": 0,
-			"PosY": 2.472202,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
+			"PosX": -46,
+			"PosY": -0.5,
+			"PosZ": -79.67,
+			"PropId": "crystal_peak",
+			"RotationY": 4.1799994,
 			"Scale": 1
 		},
 		{
-			"PosX": -53.03,
-			"PosY": 2.4717429,
-			"PosZ": 53.03,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 2.3499987,
-			"Scale": 1
-		},
-		{
-			"PosX": -75,
-			"PosY": 2.472202,
+			"PosX": -92,
+			"PosY": -0.5,
 			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
+			"PropId": "crystal_peak",
 			"RotationY": 3.14,
 			"Scale": 1
 		},
 		{
-			"PosX": -53.03,
-			"PosY": 2.4717429,
-			"PosZ": -53.03,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.9199991,
+			"PosX": 46,
+			"PosY": -0.5,
+			"PosZ": -79.67,
+			"PropId": "crystal_peak",
+			"RotationY": 5.23,
 			"Scale": 1
 		},
 		{
-			"PosX": 0,
-			"PosY": 2.472202,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.7099977,
-			"Scale": 1
-		},
-		{
-			"PosX": 53.03,
-			"PosY": 2.4717429,
-			"PosZ": -53.03,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 5.489999,
+			"PosX": -46,
+			"PosY": -0.5,
+			"PosZ": 79.67,
+			"PropId": "crystal_peak",
+			"RotationY": 2.0899997,
 			"Scale": 0.99999994
 		},
 		{
@@ -122,38 +154,6 @@
 			"PropId": "crystal_peak",
 			"RotationY": 1.0399996,
 			"Scale": 0.99999994
-		},
-		{
-			"PosX": -46,
-			"PosY": -0.5,
-			"PosZ": 79.67,
-			"PropId": "crystal_peak",
-			"RotationY": 2.0899997,
-			"Scale": 0.99999994
-		},
-		{
-			"PosX": -92,
-			"PosY": -0.5,
-			"PosZ": 0,
-			"PropId": "crystal_peak",
-			"RotationY": 3.14,
-			"Scale": 1
-		},
-		{
-			"PosX": -46,
-			"PosY": -0.5,
-			"PosZ": -79.67,
-			"PropId": "crystal_peak",
-			"RotationY": 4.1799994,
-			"Scale": 1
-		},
-		{
-			"PosX": 46,
-			"PosY": -0.5,
-			"PosZ": -79.67,
-			"PropId": "crystal_peak",
-			"RotationY": 5.23,
-			"Scale": 1
 		}
 	],
 	"SkyboxPath": "Assets/skyboxes/jade_shrine.png",
