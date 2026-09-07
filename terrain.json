@@ -156,7 +156,7 @@
 			"Scale": 0.99999994
 		}
 	],
-	"SkyboxPath": "Assets/skyboxes/jade_shrine.png",
+	"SkyboxPath": "Assets/skyboxes/jade_shrine.rtex",
 	"Units": [
 		{
 			"IsEnemy": false,
