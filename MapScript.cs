@@ -204,6 +204,7 @@ public class CustomMap : IWasmModule
         _economyScanTimer = 0f;
         _players.Clear();
         _unitQuadrantMap.Clear();
+        _api.SetSummaryTableHeaders("PLAYER", "DAMAGE", "INCOME", "SCORE");
 
         var activePlayers = new List<int>();
         for (int i = 0; i < 12; i++)
