@@ -3139,7 +3139,8 @@
 			"swatchIndex": 6
 		},
 		"deep_trench_dense_mud.rtex": {
-			"swatchIndex": 7
+			"swatchIndex": 7,
+			"uv_scale": 0.20
 		},
 		"dusty_canyon_granite_basin.rtex": {
 			"swatchIndex": 8
@@ -3169,7 +3170,8 @@
 			"swatchIndex": 16
 		},
 		"petrified_forest_gray_granite.rtex": {
-			"swatchIndex": 17
+			"swatchIndex": 17,
+			"uv_scale": 0.35
 		},
 		"solar_flare_corona_streak.rtex": {
 			"swatchIndex": 18
@@ -3178,7 +3180,8 @@
 			"swatchIndex": 19
 		},
 		"sunken_ruins_crushed_granite.rtex": {
-			"swatchIndex": 20
+			"swatchIndex": 20,
+			"uv_scale": 0.40
 		},
 		"sunken_ruins_mossy_stone.rtex": {
 			"swatchIndex": 21
@@ -3187,7 +3190,8 @@
 			"swatchIndex": 22
 		},
 		"whispering_woods_soft_grass.rtex": {
-			"swatchIndex": 23
+			"swatchIndex": 23,
+			"uv_scale": 0.25
 		}
 	},
 	"vfx_spritesheets": {}

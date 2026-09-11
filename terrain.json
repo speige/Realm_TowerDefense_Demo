@@ -1,101 +1,257 @@
 {
-	"CameraBoundsBottom": 90,
-	"CameraBoundsLeft": -90,
-	"CameraBoundsRight": 90,
-	"CameraBoundsTop": -90,
+	"CameraBoundsBottom": 150,
+	"CameraBoundsLeft": -150,
+	"CameraBoundsRight": 150,
+	"CameraBoundsTop": -150,
 	"Coordinates": [
 		{
-			"MaxX": -23,
-			"MaxZ": -23,
-			"MinX": -57,
-			"MinZ": -57,
+			"MinX": -92,
+			"MaxX": -58,
+			"MinZ": -92,
+			"MaxZ": -58,
 			"Name": "IslandNW"
 		},
 		{
-			"MaxX": 57,
-			"MaxZ": -23,
-			"MinX": 23,
-			"MinZ": -57,
+			"MinX": -17,
+			"MaxX": 17,
+			"MinZ": -92,
+			"MaxZ": -58,
+			"Name": "IslandN"
+		},
+		{
+			"MinX": 58,
+			"MaxX": 92,
+			"MinZ": -92,
+			"MaxZ": -58,
 			"Name": "IslandNE"
 		},
 		{
-			"MaxX": -23,
-			"MaxZ": 57,
-			"MinX": -57,
-			"MinZ": 23,
+			"MinX": 58,
+			"MaxX": 92,
+			"MinZ": -17,
+			"MaxZ": 17,
+			"Name": "IslandE"
+		},
+		{
+			"MinX": 58,
+			"MaxX": 92,
+			"MinZ": 58,
+			"MaxZ": 92,
+			"Name": "IslandSE"
+		},
+		{
+			"MinX": -17,
+			"MaxX": 17,
+			"MinZ": 58,
+			"MaxZ": 92,
+			"Name": "IslandS"
+		},
+		{
+			"MinX": -92,
+			"MaxX": -58,
+			"MinZ": 58,
+			"MaxZ": 92,
 			"Name": "IslandSW"
 		},
 		{
-			"MaxX": 57,
-			"MaxZ": 57,
-			"MinX": 23,
-			"MinZ": 23,
-			"Name": "IslandSE"
+			"MinX": -92,
+			"MaxX": -58,
+			"MinZ": -17,
+			"MaxZ": 17,
+			"Name": "IslandW"
 		}
 	],
 	"Decals": [],
-	"Depth": 128,
+	"Depth": 256,
 	"Props": [
 		{
-			"PosX": -52,
+			"PosX": -58.8,
 			"PosY": 3,
-			"PosZ": -40,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 1
-		},
-		{
-			"PosX": -40,
-			"PosY": 3,
-			"PosZ": -52,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 1
-		},
-		{
-			"PosX": 52,
-			"PosY": 3,
-			"PosZ": -40,
+			"PosZ": -75,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 40,
+			"PosX": -91.2,
 			"PosY": 3,
-			"PosZ": -52,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 1
-		},
-		{
-			"PosX": -52,
-			"PosY": 3,
-			"PosZ": 40,
+			"PosZ": -75,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 3.14,
 			"Scale": 1
 		},
 		{
-			"PosX": -40,
+			"PosX": -75,
 			"PosY": 3,
-			"PosZ": 52,
+			"PosZ": -58.8,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 1.57,
 			"Scale": 1
 		},
 		{
-			"PosX": 52,
+			"PosX": 16.2,
 			"PosY": 3,
-			"PosZ": 40,
+			"PosZ": -75,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 40,
+			"PosX": -16.2,
 			"PosY": 3,
-			"PosZ": 52,
+			"PosZ": -75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 0,
+			"PosY": 3,
+			"PosZ": -58.8,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": 91.2,
+			"PosY": 3,
+			"PosZ": -75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 58.8,
+			"PosY": 3,
+			"PosZ": -75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 75,
+			"PosY": 3,
+			"PosZ": -58.8,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": 91.2,
+			"PosY": 3,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 58.8,
+			"PosY": 3,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 75,
+			"PosY": 3,
+			"PosZ": 16.2,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": 91.2,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 58.8,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 75,
+			"PosY": 3,
+			"PosZ": 91.2,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": 16.2,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -16.2,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": 0,
+			"PosY": 3,
+			"PosZ": 91.2,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": -58.8,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -91.2,
+			"PosY": 3,
+			"PosZ": 75,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": -75,
+			"PosY": 3,
+			"PosZ": 91.2,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 1.57,
+			"Scale": 1
+		},
+		{
+			"PosX": -58.8,
+			"PosY": 3,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -91.2,
+			"PosY": 3,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.14,
+			"Scale": 1
+		},
+		{
+			"PosX": -75,
+			"PosY": 3,
+			"PosZ": 16.2,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 1.57,
 			"Scale": 1
@@ -111,21 +267,29 @@
 		{
 			"PosX": 0,
 			"PosY": -0.5,
-			"PosZ": -40,
+			"PosZ": -37.5,
 			"PropId": "crystal_peak",
-			"RotationY": 1.57,
+			"RotationY": 0.785,
 			"Scale": 1
 		},
 		{
 			"PosX": 0,
 			"PosY": -0.5,
-			"PosZ": 40,
+			"PosZ": 37.5,
 			"PropId": "crystal_peak",
-			"RotationY": 4.71,
+			"RotationY": 1.57,
 			"Scale": 1
 		},
 		{
-			"PosX": -40,
+			"PosX": -37.5,
+			"PosY": -0.5,
+			"PosZ": 0,
+			"PropId": "crystal_peak",
+			"RotationY": 2.355,
+			"Scale": 1
+		},
+		{
+			"PosX": 37.5,
 			"PosY": -0.5,
 			"PosZ": 0,
 			"PropId": "crystal_peak",
@@ -133,9 +297,33 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 40,
+			"PosX": -37.5,
 			"PosY": -0.5,
-			"PosZ": 0,
+			"PosZ": -37.5,
+			"PropId": "crystal_peak",
+			"RotationY": 3.9250000000000003,
+			"Scale": 1
+		},
+		{
+			"PosX": 37.5,
+			"PosY": -0.5,
+			"PosZ": -37.5,
+			"PropId": "crystal_peak",
+			"RotationY": 4.71,
+			"Scale": 1
+		},
+		{
+			"PosX": -37.5,
+			"PosY": -0.5,
+			"PosZ": 37.5,
+			"PropId": "crystal_peak",
+			"RotationY": 5.495,
+			"Scale": 1
+		},
+		{
+			"PosX": 37.5,
+			"PosY": -0.5,
+			"PosZ": 37.5,
 			"PropId": "crystal_peak",
 			"RotationY": 0,
 			"Scale": 1
@@ -146,14 +334,14 @@
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -40,
+			"PosX": -75,
 			"PosY": 3,
-			"PosZ": -40,
+			"PosZ": -75,
 			"RotationY": 0,
 			"Scale": 1,
 			"UnitId": "survivor_hero"
 		}
 	],
 	"Vfx": [],
-	"Width": 128
+	"Width": 256
 }

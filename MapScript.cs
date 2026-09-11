@@ -23,7 +23,7 @@ public class CustomMap : IWasmModule
     private const float InitialGold = 300.0f;
     private const float SpawnHeight = 3.0f;
     private const float SpawnRingMinRadius = 11.0f;
-    private const float SpawnRingMaxRadius = 15.0f;
+    private const float SpawnRingMaxRadius = 14.5f;
 
     private const float ShopRotationInterval = 60.0f;
     private const float ShopRerollCost = 100.0f;
@@ -286,7 +286,7 @@ public class CustomMap : IWasmModule
             if (!_players.TryGetValue(playerIndex, out var pState)) continue;
 
             float dist = Vector3.Distance(new Vector3(unit.Position.X, 0f, unit.Position.Z), new Vector3(pState.QuadrantCenter.X, 0f, pState.QuadrantCenter.Z));
-            if (dist > 22.0f)
+            if (dist > 21.0f)
             {
                 Vector3 dirFromCenter = unit.Position - pState.QuadrantCenter;
                 dirFromCenter.Y = 0f;
