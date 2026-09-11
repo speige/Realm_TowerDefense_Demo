@@ -1460,10 +1460,10 @@
 	},
 	"MapProperties": {
 		"Author": null,
-		"CameraBoundsBottom": 90,
-		"CameraBoundsLeft": -90,
-		"CameraBoundsRight": 90,
-		"CameraBoundsTop": -90,
+		"CameraBoundsBottom": 200,
+		"CameraBoundsLeft": -200,
+		"CameraBoundsRight": 200,
+		"CameraBoundsTop": -200,
 		"Changelog": null,
 		"Description": null,
 		"HowToPlayInstructions": [
@@ -1491,7 +1491,7 @@
 		"PlayableWidth": null,
 		"PlayerSlots": null,
 		"ShadowIntensity": null,
-		"ShroudType": null,
+		"ShroudType": "visible",
 		"SuggestedPlayers": null,
 		"Tags": null,
 		"Teams": null,
@@ -3140,7 +3140,7 @@
 		},
 		"deep_trench_dense_mud.rtex": {
 			"swatchIndex": 7,
-			"uv_scale": 0.20
+			"uv_scale": 0.2
 		},
 		"dusty_canyon_granite_basin.rtex": {
 			"swatchIndex": 8
@@ -3181,7 +3181,7 @@
 		},
 		"sunken_ruins_crushed_granite.rtex": {
 			"swatchIndex": 20,
-			"uv_scale": 0.40
+			"uv_scale": 0.4
 		},
 		"sunken_ruins_mossy_stone.rtex": {
 			"swatchIndex": 21

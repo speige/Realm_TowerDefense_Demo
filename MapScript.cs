@@ -233,6 +233,11 @@ public class CustomMap : IWasmModule
             ShowNextWaveCountdown(pState);
         }
 
+        if (activeHumanCount <= 1)
+        {
+            _api.PanCameraTo(Coordinates.QuadrantCenters[0], 0.0f);
+        }
+
         _api.OnUnitDied += OnUnitDied;
         _api.OnUnitDamaged += OnUnitDamaged;
         _api.OnPlayerChatMessage += OnPlayerChatMessage;

@@ -11,9 +11,7 @@ Realm is an RTS Game using Godot with C# and the Arch ECS framework.
 ## Unit Configuration (metadata.json)
 - Define custom units and properties here.
 - Examples of properties: `MaxHp`, `Damage`, `Range`, `Armor`, `Speed`, `CostGold`, `PopCost`, `BuildOptions`, etc.
-- **Weapon & Attachment Configuration**: Unit weapons, off-hand items, and armor attachments must be configured via `metadata.json` (under `attachments.right_hand`, `attachments.left_hand`, etc.) and the map editor attachment tooling. NEVER hardcode weapon assignments or hand attachment overrides inside `MapScript.cs` or `Coordinates.cs`.
 
 ## Debugging
 - Use the 'Attach to Realm Game Host' launch configuration in VS Code to attach the .NET debugger to the game and hit breakpoints in your `MapScript.cs`.
 - Hot reloading is supported via the temp workspace sync.
-
