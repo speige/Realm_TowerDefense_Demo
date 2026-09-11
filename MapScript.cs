@@ -300,7 +300,7 @@ public class CustomMap : IWasmModule
                 }
 
                 Vector3 safePos = new Vector3(pState.QuadrantCenter.X + (dirFromCenter.X * 12.0f), 3.0f, pState.QuadrantCenter.Z + (dirFromCenter.Z * 12.0f));
-                unit.Position = safePos;
+                unit.Teleport(safePos);
                 unit.AttackMove(pState.QuadrantCenter);
             }
         }
