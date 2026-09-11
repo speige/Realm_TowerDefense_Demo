@@ -22,8 +22,8 @@ public class CustomMap : IWasmModule
     private const float BasePassiveGoldPerSecond = 8.0f;
     private const float InitialGold = 300.0f;
     private const float SpawnHeight = 3.0f;
-    private const float SpawnRingMinRadius = 20.0f;
-    private const float SpawnRingMaxRadius = 26.0f;
+    private const float SpawnRingMinRadius = 11.0f;
+    private const float SpawnRingMaxRadius = 15.0f;
 
     private const float ShopRotationInterval = 60.0f;
     private const float ShopRerollCost = 100.0f;
@@ -115,20 +115,11 @@ public class CustomMap : IWasmModule
         new(new[] { "dragon_titan_boss" }, TotalCount: 1, SpawnInterval: 1.00f, InterWaveDelay: 20.0f, IsBoss: true)
     };
 
-    private static readonly Dictionary<string, string[]> EnemyWeaponTable = new()
-    {
-        { "zombie_soldier", new[] { "rusted_broadsword", "wooden_club", "rusted_dagger" } },
-        { "zombie_warrior", new[] { "iron_cleaver", "battle_axe", "spiked_mace" } },
-        { "forest_goblin", new[] { "crude_dagger", "hunting_spear", "goblin_cleaver" } },
-        { "dark_iron_ogre", new[] { "great_warhammer", "spiked_club", "executioner_axe" } }
-    };
-
     private sealed class PlayerState
     {
         public int PlayerIndex { get; }
         public IUnit? Hero { get; set; }
         public Vector3 QuadrantCenter { get; set; }
-        public string HeroWeapon { get; set; } = "green_magic_sword";
         public bool IsDefeated { get; set; }
 
         public readonly Dictionary<string, int> PerkStacks = new(32);
@@ -182,7 +173,6 @@ public class CustomMap : IWasmModule
         {
             PlayerIndex = playerIndex;
             QuadrantCenter = Coordinates.GetQuadrantCenter(playerIndex);
-            HeroWeapon = Coordinates.GetHeroWeapon(playerIndex);
         }
 
         public int GetPerkStackCount(string perkId)
@@ -223,12 +213,11 @@ public class CustomMap : IWasmModule
             var pState = new PlayerState(pIdx);
             if (activeHumanCount <= 1)
             {
-                pState.QuadrantCenter = Coordinates.Center;
+                pState.QuadrantCenter = Coordinates.QuadrantCenters[0];
             }
             else
             {
                 pState.QuadrantCenter = Coordinates.GetQuadrantCenter(slotIdx);
-                pState.HeroWeapon = Coordinates.GetHeroWeapon(slotIdx);
             }
             _players[pIdx] = pState;
 
@@ -285,6 +274,36 @@ public class CustomMap : IWasmModule
         }
 
         UpdateEconomyAndUI(delta);
+        UpdateEnemyAntiSoftlockWatchdog();
+    }
+
+    private void UpdateEnemyAntiSoftlockWatchdog()
+    {
+        foreach (var unit in _api.GetAllUnits())
+        {
+            if (unit == null || unit.IsDead || !unit.IsEnemy) continue;
+            if (!_unitQuadrantMap.TryGetValue(unit.UniqueId, out int playerIndex)) continue;
+            if (!_players.TryGetValue(playerIndex, out var pState)) continue;
+
+            float dist = Vector3.Distance(new Vector3(unit.Position.X, 0f, unit.Position.Z), new Vector3(pState.QuadrantCenter.X, 0f, pState.QuadrantCenter.Z));
+            if (dist > 22.0f)
+            {
+                Vector3 dirFromCenter = unit.Position - pState.QuadrantCenter;
+                dirFromCenter.Y = 0f;
+                if (dirFromCenter.LengthSquared() > 0.001f)
+                {
+                    dirFromCenter = Vector3.Normalize(dirFromCenter);
+                }
+                else
+                {
+                    dirFromCenter = new Vector3(0f, 0f, 1f);
+                }
+
+                Vector3 safePos = new Vector3(pState.QuadrantCenter.X + (dirFromCenter.X * 12.0f), 3.0f, pState.QuadrantCenter.Z + (dirFromCenter.Z * 12.0f));
+                unit.Position = safePos;
+                unit.AttackMove(pState.QuadrantCenter);
+            }
+        }
     }
 
     private void SpawnSurvivorHero(PlayerState pState)
@@ -315,7 +334,6 @@ public class CustomMap : IWasmModule
 
         pState.Hero.Speed = 0f;
         _api.SetUnitColor(pState.Hero, new Vector3(1f, 1f, 1f));
-        _api.SetUnitHandAttachment(pState.Hero, "RightHand", pState.HeroWeapon);
         RecalculateHeroStats(pState);
 
         if (pState.PlayerIndex == 0)
@@ -834,7 +852,7 @@ public class CustomMap : IWasmModule
         IUnit? unit;
         if (unitType == "dragon_titan_boss")
         {
-            var bossPos = pState.QuadrantCenter + new Vector3(0f, 0f, -25f);
+            var bossPos = pState.QuadrantCenter + new Vector3(0f, 0f, -10.0f);
             unit = _api.SpawnUnit(unitType, bossPos, true);
             if (unit != null)
             {
@@ -851,12 +869,6 @@ public class CustomMap : IWasmModule
         if (unit != null)
         {
             _unitQuadrantMap[unit.UniqueId] = pState.PlayerIndex;
-
-            if (EnemyWeaponTable.TryGetValue(unitType, out var weapons) && weapons.Length > 0)
-            {
-                int wIndex = _api.RandomInt(0, weapons.Length - 1);
-                _api.SetUnitHandAttachment(unit, "RightHand", weapons[wIndex]);
-            }
 
             float hpScale = 1.0f + (pState.PerksPicked * 0.05f) + (pState.WaveBeingSpawned * 0.03f) + (pState.HasUnboundGreed ? 0.15f : 0f);
             unit.MaxHealth *= hpScale;
@@ -938,7 +950,7 @@ public class CustomMap : IWasmModule
         _api.ShowFeedbackText(_api.Translate("RAID_BOSS_ALERT", pState.PlayerIndex), new Vector3(1f, 0.85f, 0.1f));
         _api.PlayWarningSound();
         _api.ShakeCamera(2.5f, 2.0f);
-        var bossPos = pState.QuadrantCenter + new Vector3(0f, 0f, -25f);
+        var bossPos = pState.QuadrantCenter + new Vector3(0f, 0f, -10.0f);
         _api.PanCameraTo(bossPos, 1.5f);
         _api.PingMinimap(bossPos);
     }
@@ -959,12 +971,6 @@ public class CustomMap : IWasmModule
         if (unit != null)
         {
             _unitQuadrantMap[unit.UniqueId] = pState.PlayerIndex;
-
-            if (EnemyWeaponTable.TryGetValue(unitType, out var weapons) && weapons.Length > 0)
-            {
-                int wIndex = _api.RandomInt(0, weapons.Length - 1);
-                _api.SetUnitHandAttachment(unit, "RightHand", weapons[wIndex]);
-            }
 
             unit.AttackMove(pState.QuadrantCenter);
             pState.AliveInWave++;

@@ -1,6 +1,25 @@
 {
 	"CustomAbilities": [
 		{
+			"AbilityId": "hero_meteor_spell",
+			"AbilityType": "target_spell",
+			"AppliedStatusEffects": null,
+			"AreaOfEffectRadius": 4,
+			"CastSound": null,
+			"Cooldown": 15,
+			"Damage": 120,
+			"Description": "[D] Meteorito Igneo — Lanza un meteorito colosal sobre el area objetivo infligiendo 120 de dano en area.",
+			"Healing": 0,
+			"IconPath": "res://Assets/icons/abilities/meteor_strike.rtex",
+			"ManaCost": 0,
+			"Name": "[D] Meteorito Igneo",
+			"SummonCount": 0,
+			"SummonDuration": 0,
+			"SummonedUnitId": null,
+			"TargetRange": 35,
+			"VisualEffect": null
+		},
+		{
 			"AbilityId": "perk_choose_1",
 			"AbilityType": "instant_spell",
 			"AppliedStatusEffects": null,
@@ -74,25 +93,6 @@
 			"SummonDuration": 0,
 			"SummonedUnitId": null,
 			"TargetRange": 0,
-			"VisualEffect": null
-		},
-		{
-			"AbilityId": "hero_meteor_spell",
-			"AbilityType": "target_spell",
-			"AppliedStatusEffects": null,
-			"AreaOfEffectRadius": 4,
-			"CastSound": null,
-			"Cooldown": 15,
-			"Damage": 120,
-			"Description": "[D] Meteorito Igneo — Lanza un meteorito colosal sobre el area objetivo infligiendo 120 de dano en area.",
-			"Healing": 0,
-			"IconPath": "res://Assets/icons/abilities/meteor_strike.rtex",
-			"ManaCost": 0,
-			"Name": "[D] Meteorito Igneo",
-			"SummonCount": 0,
-			"SummonDuration": 0,
-			"SummonedUnitId": null,
-			"TargetRange": 35,
 			"VisualEffect": null
 		}
 	],
@@ -181,7 +181,36 @@
 			"Name": "Cyber Dragon",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"spear_of_light": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 6,
+							"PositionX": 0.044999965,
+							"PositionY": 0.7049999,
+							"PositionZ": -0.08500003,
+							"RollZ": 0.39365786,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 150
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 4,
@@ -245,7 +274,36 @@
 			"Name": "Dark Iron Ogre",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"magical_war_hammer": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 74,
+							"PositionX": 0.40499997,
+							"PositionY": 0.16499996,
+							"PositionZ": -0.555,
+							"RollZ": 25,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 169
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -309,7 +367,36 @@
 			"Name": "Dragon Titan Boss",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"magical_staff": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 7.5564013,
+							"PositionX": 0.047088526,
+							"PositionY": 0.7058064,
+							"PositionZ": -0.09582667,
+							"RollZ": 0.5078169,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 150.24744
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -373,7 +460,36 @@
 			"Name": "Flame Drake",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"enchanted_staff": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": -1.9459661,
+							"PositionX": -0.008099576,
+							"PositionY": 0.68758816,
+							"PositionZ": 0.0039671585,
+							"RollZ": 1.232803,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 149.5266
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 4,
@@ -437,7 +553,36 @@
 			"Name": "Forest Goblin",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"mace_war_hammer_1": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 49,
+							"PositionX": 0.44999996,
+							"PositionY": -0.27000004,
+							"PositionZ": -0.46500003,
+							"RollZ": 126,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": -108
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -501,7 +646,36 @@
 			"Name": "Giant Rock Golem",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"crystal_staff_weapon": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 58,
+							"PositionX": 0.44499996,
+							"PositionY": -0.22500002,
+							"PositionZ": -0.49500003,
+							"RollZ": 127,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": -101
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -565,7 +739,36 @@
 			"Name": "Mech Spider Monster",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"curved_dagger": {
+							"NormalOffset": -1.1175871E-08,
+							"ParentAttachmentId": null,
+							"PitchX": 90,
+							"PositionX": 0.39999995,
+							"PositionY": 0.15499996,
+							"PositionZ": -0.565,
+							"RollZ": 29,
+							"Scale": 0.05,
+							"ScaleX": 0.05,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 179
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -635,7 +838,36 @@
 			"Name": "Héroe del Survivor",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"crystal_mace_1": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 27,
+							"PositionX": 0.44999996,
+							"PositionY": -0.47000003,
+							"PositionZ": 0.27499995,
+							"RollZ": 138,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 173
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 32,
@@ -657,9 +889,7 @@
 			"Tint": null,
 			"UnitId": "survivor_hero",
 			"Upgrades": null,
-			"Weapons": [
-				"survivor_arrow"
-			],
+			"Weapons": [],
 			"XpBounty": 0,
 			"YOffset": 0
 		},
@@ -701,7 +931,53 @@
 			"Name": "Zombie Soldier",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": [
+					{
+						"lion_crest_shield": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": -180,
+							"PositionX": 0.19499996,
+							"PositionY": 0.08499996,
+							"PositionZ": 0,
+							"RollZ": 40,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": -43
+						}
+					}
+				],
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"green_magic_sword": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 0,
+							"PositionX": 0.029999966,
+							"PositionY": 0.78999996,
+							"PositionZ": 0.029999966,
+							"RollZ": 0,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 0
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -765,7 +1041,36 @@
 			"Name": "Zombie Warrior",
 			"NormalMode": "Flat",
 			"NormalizeLuminance": true,
-			"ObjectAttachments": null,
+			"ObjectAttachments": {
+				"center": null,
+				"chest": null,
+				"ground": null,
+				"head": null,
+				"left_foot": null,
+				"left_hand": null,
+				"overhead": null,
+				"pivot": null,
+				"right_foot": null,
+				"right_hand": [
+					{
+						"crystal_lance_spear": {
+							"NormalOffset": 0,
+							"ParentAttachmentId": null,
+							"PitchX": 39,
+							"PositionX": 0.35999995,
+							"PositionY": 0.54999995,
+							"PositionZ": -0.28000003,
+							"RollZ": -1,
+							"Scale": 1,
+							"ScaleX": 1,
+							"ScaleY": 1,
+							"ScaleZ": 1,
+							"YawY": 124
+						}
+					}
+				],
+				"root": null
+			},
 			"ObstacleRadius": null,
 			"PathingCapabilities": null,
 			"PathingType": 8,
@@ -797,24 +1102,24 @@
 	"CustomWeapons": [
 		{
 			"Acceleration": 0,
-			"ArcHeight": 0,
-			"AttackCooldown": 0.85,
+			"ArcHeight": 1.8,
+			"AttackCooldown": 2,
 			"AttackSound": null,
 			"AttackType": "ranged",
-			"BaseColor": "#3d2b1f",
-			"Damage": 45,
+			"BaseColor": null,
+			"Damage": 120,
 			"EaseCurve": null,
-			"EmissionColor": "#ffcc44",
-			"EmissionEnergy": 3.5,
+			"EmissionColor": "#ff2200",
+			"EmissionEnergy": 6,
 			"EmissionMaskSource": "noise",
 			"FailsafeRange": 0,
 			"ForwardAxisPreset": "-Z",
-			"FresnelColor": "#ffe082",
+			"FresnelColor": "#ff8800",
 			"FresnelFactor": 1.5,
 			"FresnelPower": 3,
 			"HomingWeight": 0,
 			"ImpactSound": null,
-			"ImpactVisualEffect": "holylight",
+			"ImpactVisualEffect": "fireblast",
 			"MaxBounces": 0,
 			"MaxLifetime": 0,
 			"MeshRotationOffset": {
@@ -832,27 +1137,27 @@
 				"Y": 0,
 				"Z": 0
 			},
-			"Name": "Flecha del Survivor",
+			"Name": "Meteorito Colosal",
 			"NoiseScale": 3,
 			"NoiseTexture": null,
-			"OrientToTrajectory": true,
+			"OrientToTrajectory": false,
 			"PierceCount": 0,
-			"PointLightColor": null,
-			"PointLightEnabled": false,
-			"PointLightIntensity": 2,
-			"PointLightRange": 6,
-			"ProjectileModelPath": "Assets/models/projectiles/spear_projectile_2.glb",
-			"ProjectileSpeed": 42,
-			"Range": 38,
+			"PointLightColor": "#ff2200",
+			"PointLightEnabled": true,
+			"PointLightIntensity": 4,
+			"PointLightRange": 8,
+			"ProjectileModelPath": "Assets/models/environment/rock_spire.glb",
+			"ProjectileSpeed": 26,
+			"Range": 35,
 			"RibbonAdditive": true,
-			"RibbonColor": "#ffd700",
-			"RibbonLifetime": 0.4,
+			"RibbonColor": "#ff3300",
+			"RibbonLifetime": 0.7,
 			"RibbonScrollSpeed": 0,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/ribbons/arcane_rune_flare.rtex",
-			"RibbonWidth": 0.35,
+			"RibbonTexture": "Assets/ribbons/magma_flow_lava_vein.rtex",
+			"RibbonWidth": 0.8,
 			"ScaleCurve": null,
-			"ShaderEffectType": null,
+			"ShaderEffectType": "fire",
 			"SpeedCurve": null,
 			"SpiralFrequency": 0,
 			"SpiralRadius": 0,
@@ -864,9 +1169,9 @@
 				"Z": 0
 			},
 			"TumbleAngularVelocity": {
-				"X": 0,
-				"Y": 0,
-				"Z": 0
+				"X": 2,
+				"Y": 3,
+				"Z": 1
 			},
 			"TurnRateLimit": 0,
 			"UvScrollSpeed1": {
@@ -878,7 +1183,7 @@
 				"Y": 0
 			},
 			"VisualEffect": null,
-			"WeaponId": "survivor_arrow",
+			"WeaponId": "boss_meteor",
 			"ZigzagAmplitude": 0,
 			"ZigzagFrequency": 0
 		},
@@ -1058,24 +1363,24 @@
 		},
 		{
 			"Acceleration": 0,
-			"ArcHeight": 1.8,
-			"AttackCooldown": 2,
+			"ArcHeight": 0,
+			"AttackCooldown": 0.85,
 			"AttackSound": null,
 			"AttackType": "ranged",
-			"BaseColor": null,
-			"Damage": 120,
+			"BaseColor": "#3d2b1f",
+			"Damage": 45,
 			"EaseCurve": null,
-			"EmissionColor": "#ff2200",
-			"EmissionEnergy": 6,
+			"EmissionColor": "#ffcc44",
+			"EmissionEnergy": 3.5,
 			"EmissionMaskSource": "noise",
 			"FailsafeRange": 0,
 			"ForwardAxisPreset": "-Z",
-			"FresnelColor": "#ff8800",
+			"FresnelColor": "#ffe082",
 			"FresnelFactor": 1.5,
 			"FresnelPower": 3,
 			"HomingWeight": 0,
 			"ImpactSound": null,
-			"ImpactVisualEffect": "fireblast",
+			"ImpactVisualEffect": "holylight",
 			"MaxBounces": 0,
 			"MaxLifetime": 0,
 			"MeshRotationOffset": {
@@ -1093,27 +1398,27 @@
 				"Y": 0,
 				"Z": 0
 			},
-			"Name": "Meteorito Colosal",
+			"Name": "Flecha del Survivor",
 			"NoiseScale": 3,
 			"NoiseTexture": null,
-			"OrientToTrajectory": false,
+			"OrientToTrajectory": true,
 			"PierceCount": 0,
-			"PointLightColor": "#ff2200",
-			"PointLightEnabled": true,
-			"PointLightIntensity": 4,
-			"PointLightRange": 8,
-			"ProjectileModelPath": "Assets/models/environment/rock_spire.glb",
-			"ProjectileSpeed": 26,
-			"Range": 35,
+			"PointLightColor": null,
+			"PointLightEnabled": false,
+			"PointLightIntensity": 2,
+			"PointLightRange": 6,
+			"ProjectileModelPath": "Assets/models/projectiles/spear_projectile_2.glb",
+			"ProjectileSpeed": 42,
+			"Range": 38,
 			"RibbonAdditive": true,
-			"RibbonColor": "#ff3300",
-			"RibbonLifetime": 0.7,
+			"RibbonColor": "#ffd700",
+			"RibbonLifetime": 0.4,
 			"RibbonScrollSpeed": 0,
 			"RibbonTaper": true,
-			"RibbonTexture": "Assets/ribbons/magma_flow_lava_vein.rtex",
-			"RibbonWidth": 0.8,
+			"RibbonTexture": "Assets/ribbons/arcane_rune_flare.rtex",
+			"RibbonWidth": 0.35,
 			"ScaleCurve": null,
-			"ShaderEffectType": "fire",
+			"ShaderEffectType": null,
 			"SpeedCurve": null,
 			"SpiralFrequency": 0,
 			"SpiralRadius": 0,
@@ -1125,9 +1430,9 @@
 				"Z": 0
 			},
 			"TumbleAngularVelocity": {
-				"X": 2,
-				"Y": 3,
-				"Z": 1
+				"X": 0,
+				"Y": 0,
+				"Z": 0
 			},
 			"TurnRateLimit": 0,
 			"UvScrollSpeed1": {
@@ -1139,7 +1444,7 @@
 				"Y": 0
 			},
 			"VisualEffect": null,
-			"WeaponId": "boss_meteor",
+			"WeaponId": "survivor_arrow",
 			"ZigzagAmplitude": 0,
 			"ZigzagFrequency": 0
 		}
@@ -1181,7 +1486,7 @@
 		"MapType": null,
 		"MapWidth": null,
 		"MinimapImage": null,
-		"Name": null,
+		"Name": "TOWER SURVIVORS",
 		"PlayableHeight": null,
 		"PlayableWidth": null,
 		"PlayerSlots": null,
@@ -1210,7 +1515,6 @@
 		"zombie_warrior.glb": 0.5
 	},
 	"ModelCollisionCircleRatios": {
-		"adventurer.glb": 0.75,
 		"coniferous_tree_2.glb": 1,
 		"crystal_peak.glb": 1,
 		"cyber_dragon.glb": 0,
@@ -1226,7 +1530,6 @@
 	},
 	"ModelColorTint": {},
 	"ModelDeathShaders": {},
-	"ModelGenerateNormals": {},
 	"ModelIgnorePlayerColor": {
 		"adventurer.glb": true,
 		"ancient_altar.glb": true,
@@ -1313,7 +1616,6 @@
 		"blue_armored_warrior_2.glb": true,
 		"blue_beast_warrior.glb": true,
 		"blue_beast_warrior_1.glb": true,
-		"blue_dragon.glb": true,
 		"blue_dragon_knight.glb": true,
 		"blue_dragon_warrior.glb": true,
 		"blue_dragon_warrior_2.glb": true,
@@ -1389,7 +1691,6 @@
 		"dragon_titan.glb": true,
 		"dragon_titan_boss.glb": true,
 		"dragon_unit.glb": true,
-		"dragon_war_mount.glb": true,
 		"dragon_warrior.glb": true,
 		"dragon_warrior_1.glb": true,
 		"dragon_warrior_mech.glb": true,
@@ -1538,7 +1839,6 @@
 		"heavy_armored_warrior_1.glb": true,
 		"heavy_mech_soldier.glb": true,
 		"heavy_mech_unit.glb": true,
-		"heavy_mech_warrior.glb": true,
 		"heavy_mech_warrior_1.glb": true,
 		"heavy_mech_warrior_2.glb": true,
 		"heavy_mech_warrior_3.glb": true,
@@ -1565,7 +1865,6 @@
 		"ice_armor_warrior_2.glb": true,
 		"ice_beast_creature.glb": true,
 		"ice_crystal_shard_5.glb": true,
-		"ice_dragon_beast.glb": true,
 		"ice_dragon_beast_1.glb": true,
 		"ice_dragon_beast_2.glb": true,
 		"ice_dragon_warrior.glb": true,
@@ -1887,14 +2186,12 @@
 		"spiked_frost_warrior.glb": true,
 		"spiked_wooden_stake.glb": true,
 		"spirit_warrior.glb": true,
-		"stone_golem_warrior.glb": true,
 		"stone_hammer.glb": true,
 		"stone_tower_14.glb": true,
 		"survivor_hero.glb": true,
 		"sword_short_blade.glb": true,
 		"tower.glb": true,
 		"tower_1.glb": true,
-		"troll_warrior.glb": true,
 		"troll_warrior_1.glb": true,
 		"troll_warrior_2.glb": true,
 		"undead_knight_scavenger.glb": true,
@@ -1909,7 +2206,6 @@
 		"warrior_armor_set_1.glb": true,
 		"warrior_armor_set_2.glb": true,
 		"warrior_armor_set_3.glb": true,
-		"warrior_giant.glb": true,
 		"warrior_hero.glb": true,
 		"warrior_humanoid.glb": true,
 		"warrior_knight.glb": true,
@@ -2770,18 +3066,14 @@
 	},
 	"ModelObstacleRadii": {},
 	"ModelOffsets": {
-		"adventurer.glb": 1.4901164,
-		"blue_dragon.glb": 14,
 		"coniferous_tree_2.glb": 1.25,
 		"crystal_peak.glb": 1.25,
 		"cyber_dragon.glb": 14,
 		"dark_iron_ogre.glb": 0,
 		"dragon_titan_boss.glb": 9,
-		"dragon_war_mount.glb": 9,
 		"flame_drake.glb": 14,
 		"forest_goblin.glb": 0,
 		"giant_rock_golem.glb": 0,
-		"ice_dragon_beast.glb": 14,
 		"mech_spider_monster.glb": 0,
 		"survivor_hero.glb": 0,
 		"zombie_soldier.glb": 0,
@@ -2801,7 +3093,6 @@
 		"heavy_mech_warrior.glb": 1.5,
 		"ice_dragon_beast.glb": 1.5,
 		"mech_spider_monster.glb": 1.5,
-		"orc_archer.glb": 1.5,
 		"skeleton_warrior.glb": 1.5,
 		"stone_golem_warrior.glb": 1.5,
 		"survivor_hero.glb": 1.5,
@@ -2827,28 +3118,25 @@
 	"skyboxes": {},
 	"textures": {
 		"abyssal_trench_bottom_sediment.rtex": {
-			"scale_factor": 4,
-			"swatchIndex": 3
+			"swatchIndex": 0
 		},
 		"ancient_jungle_misty_stone.rtex": {
-			"scale_factor": 4,
-			"swatchIndex": 2
+			"swatchIndex": 1
 		},
 		"ancient_jungle_mossy_stone.rtex": {
-			"swatchIndex": 5
+			"swatchIndex": 2
 		},
 		"ancient_jungle_overgrown_path.rtex": {
-			"swatchIndex": 6
+			"swatchIndex": 3
 		},
 		"arcane_rune_ether_trace.rtex": {
-			"swatchIndex": 17
+			"swatchIndex": 4
 		},
 		"arcane_rune_flare.rtex": {
-			"swatchIndex": 18
+			"swatchIndex": 5
 		},
 		"deep_trench_cavern_grit.rtex": {
-			"scale_factor": 4,
-			"swatchIndex": 1
+			"swatchIndex": 6
 		},
 		"deep_trench_dense_mud.rtex": {
 			"swatchIndex": 7
@@ -2860,58 +3148,47 @@
 			"swatchIndex": 9
 		},
 		"frost_shard_trail.rtex": {
-			"swatchIndex": 19
-		},
-		"frozen_tundra_arctic_dirt.rtex": {
-			"scale_factor": 1.3807359,
-			"swatchIndex": 4
-		},
-		"frozen_tundra_mud.rtex": {
 			"swatchIndex": 10
 		},
-		"magma_flow_lava_vein.rtex": {
-			"swatchIndex": 20
-		},
-		"mangrove_swamp_bog_grass.rtex": {
+		"frozen_tundra_arctic_dirt.rtex": {
 			"swatchIndex": 11
 		},
-		"mangrove_swamp_reed_bed.rtex": {
-			"scale_factor": 4,
-			"swatchIndex": 0
-		},
-		"neon_glitch_pulse.rtex": {
-			"swatchIndex": 21
-		},
-		"petrified_forest_gray_granite.rtex": {
+		"frozen_tundra_mud.rtex": {
 			"swatchIndex": 12
 		},
-		"solar_flare_corona_streak.rtex": {
-			"swatchIndex": 22
-		},
-		"solar_flare_plasma_beam.rtex": {
-			"swatchIndex": 23
-		},
-		"sunken_ruins_crushed_granite.rtex": {
+		"magma_flow_lava_vein.rtex": {
 			"swatchIndex": 13
 		},
-		"sunken_ruins_mossy_stone.rtex": {
+		"mangrove_swamp_bog_grass.rtex": {
 			"swatchIndex": 14
 		},
-		"sunken_ruins_reef_stone.rtex": {
+		"mangrove_swamp_reed_bed.rtex": {
 			"swatchIndex": 15
 		},
-		"whispering_woods_soft_grass.rtex": {
+		"neon_glitch_pulse.rtex": {
 			"swatchIndex": 16
+		},
+		"petrified_forest_gray_granite.rtex": {
+			"swatchIndex": 17
+		},
+		"solar_flare_corona_streak.rtex": {
+			"swatchIndex": 18
+		},
+		"solar_flare_plasma_beam.rtex": {
+			"swatchIndex": 19
+		},
+		"sunken_ruins_crushed_granite.rtex": {
+			"swatchIndex": 20
+		},
+		"sunken_ruins_mossy_stone.rtex": {
+			"swatchIndex": 21
+		},
+		"sunken_ruins_reef_stone.rtex": {
+			"swatchIndex": 22
+		},
+		"whispering_woods_soft_grass.rtex": {
+			"swatchIndex": 23
 		}
 	},
-	"vfx_spritesheets": {
-		"arcane_surge_sheet.rtex": {
-			"columns": 4,
-			"rows": 4
-		},
-		"solar_flare_sheet.rtex": {
-			"columns": 4,
-			"rows": 4
-		}
-	}
+	"vfx_spritesheets": {}
 }
