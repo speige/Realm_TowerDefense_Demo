@@ -286,7 +286,7 @@ public class CustomMap : IWasmModule
             if (!_players.TryGetValue(playerIndex, out var pState)) continue;
 
             float dist = Vector3.Distance(new Vector3(unit.Position.X, 0f, unit.Position.Z), new Vector3(pState.QuadrantCenter.X, 0f, pState.QuadrantCenter.Z));
-            if (dist > 21.0f)
+            if (dist > 19.5f)
             {
                 Vector3 dirFromCenter = unit.Position - pState.QuadrantCenter;
                 dirFromCenter.Y = 0f;

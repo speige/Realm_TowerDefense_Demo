@@ -36,7 +36,7 @@ public static class Coordinates
     public static Vector3 GetRandomSpawnPointOnRing(Vector3 center, float minRadius = 11.0f, float maxRadius = 14.5f, float spawnHeight = 3f)
     {
         float angle = Random.Shared.NextSingle() * MathF.Tau;
-        float radius = MathF.Min(15.5f, minRadius + (Random.Shared.NextSingle() * (maxRadius - minRadius)));
+        float radius = MathF.Min(15.0f, minRadius + (Random.Shared.NextSingle() * (maxRadius - minRadius)));
         return new Vector3(center.X + (MathF.Cos(angle) * radius), spawnHeight, center.Z + (MathF.Sin(angle) * radius));
     }
 
