@@ -22,8 +22,8 @@ public class CustomMap : IWasmModule
     private const float BasePassiveGoldPerSecond = 8.0f;
     private const float InitialGold = 300.0f;
     private const float SpawnHeight = 3.0f;
-    private const float SpawnRingMinRadius = 11.0f;
-    private const float SpawnRingMaxRadius = 14.5f;
+    private const float SpawnRingMinRadius = 22.0f;
+    private const float SpawnRingMaxRadius = 27.0f;
 
     private const float ShopRotationInterval = 60.0f;
     private const float ShopRerollCost = 100.0f;
@@ -286,7 +286,7 @@ public class CustomMap : IWasmModule
             if (!_players.TryGetValue(playerIndex, out var pState)) continue;
 
             float dist = Vector3.Distance(new Vector3(unit.Position.X, 0f, unit.Position.Z), new Vector3(pState.QuadrantCenter.X, 0f, pState.QuadrantCenter.Z));
-            if (dist > 19.5f)
+            if (dist > 41.0f)
             {
                 Vector3 dirFromCenter = unit.Position - pState.QuadrantCenter;
                 dirFromCenter.Y = 0f;
@@ -299,7 +299,7 @@ public class CustomMap : IWasmModule
                     dirFromCenter = new Vector3(0f, 0f, 1f);
                 }
 
-                Vector3 safePos = new Vector3(pState.QuadrantCenter.X + (dirFromCenter.X * 12.0f), 3.0f, pState.QuadrantCenter.Z + (dirFromCenter.Z * 12.0f));
+                Vector3 safePos = new Vector3(pState.QuadrantCenter.X + (dirFromCenter.X * 24.0f), 3.0f, pState.QuadrantCenter.Z + (dirFromCenter.Z * 24.0f));
                 unit.Teleport(safePos);
                 unit.AttackMove(pState.QuadrantCenter);
             }

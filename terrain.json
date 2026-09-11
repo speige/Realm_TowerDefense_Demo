@@ -1,339 +1,339 @@
 {
-	"CameraBoundsBottom": 150,
-	"CameraBoundsLeft": -150,
-	"CameraBoundsRight": 150,
-	"CameraBoundsTop": -150,
-	"Coordinates": [
-		{
-			"MinX": -92,
-			"MaxX": -58,
-			"MinZ": -92,
-			"MaxZ": -58,
-			"Name": "IslandNW"
-		},
-		{
-			"MinX": -17,
-			"MaxX": 17,
-			"MinZ": -92,
-			"MaxZ": -58,
-			"Name": "IslandN"
-		},
-		{
-			"MinX": 58,
-			"MaxX": 92,
-			"MinZ": -92,
-			"MaxZ": -58,
-			"Name": "IslandNE"
-		},
-		{
-			"MinX": 58,
-			"MaxX": 92,
-			"MinZ": -17,
-			"MaxZ": 17,
-			"Name": "IslandE"
-		},
-		{
-			"MinX": 58,
-			"MaxX": 92,
-			"MinZ": 58,
-			"MaxZ": 92,
-			"Name": "IslandSE"
-		},
-		{
-			"MinX": -17,
-			"MaxX": 17,
-			"MinZ": 58,
-			"MaxZ": 92,
-			"Name": "IslandS"
-		},
-		{
-			"MinX": -92,
-			"MaxX": -58,
-			"MinZ": 58,
-			"MaxZ": 92,
-			"Name": "IslandSW"
-		},
-		{
-			"MinX": -92,
-			"MaxX": -58,
-			"MinZ": -17,
-			"MaxZ": 17,
-			"Name": "IslandW"
-		}
-	],
-	"Decals": [],
-	"Depth": 256,
-	"Props": [
-		{
-			"PosX": -58.8,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -91.2,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": -58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": -91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 16.2,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -16.2,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": -58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": -91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 91.2,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 58.8,
-			"PosY": 3,
-			"PosZ": -75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": -58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": -91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 91.2,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 58.8,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": 16.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": -16.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 91.2,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 58.8,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": 91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 75,
-			"PosY": 3,
-			"PosZ": 58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 16.2,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -16.2,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": 91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": 58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -58.8,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -91.2,
-			"PosY": 3,
-			"PosZ": 75,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": 91.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": 58.8,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -58.8,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -91.2,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": 16.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": -16.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		}
-	],
-	"SkyboxPath": "Assets/skyboxes/jade_shrine.rtex",
-	"Units": [
-		{
-			"IsEnemy": false,
-			"Player": 0,
-			"PosX": -75,
-			"PosY": 3,
-			"PosZ": -75,
-			"RotationY": 0,
-			"Scale": 1,
-			"UnitId": "survivor_hero"
-		}
-	],
-	"Vfx": [],
-	"Width": 256
+  "CameraBoundsBottom": 200,
+  "CameraBoundsLeft": -200,
+  "CameraBoundsRight": 200,
+  "CameraBoundsTop": -200,
+  "Coordinates": [
+    {
+      "MinX": -190,
+      "MaxX": -110,
+      "MinZ": -190,
+      "MaxZ": -110,
+      "Name": "IslandNW"
+    },
+    {
+      "MinX": -40,
+      "MaxX": 40,
+      "MinZ": -190,
+      "MaxZ": -110,
+      "Name": "IslandN"
+    },
+    {
+      "MinX": 110,
+      "MaxX": 190,
+      "MinZ": -190,
+      "MaxZ": -110,
+      "Name": "IslandNE"
+    },
+    {
+      "MinX": 110,
+      "MaxX": 190,
+      "MinZ": -40,
+      "MaxZ": 40,
+      "Name": "IslandE"
+    },
+    {
+      "MinX": 110,
+      "MaxX": 190,
+      "MinZ": 110,
+      "MaxZ": 190,
+      "Name": "IslandSE"
+    },
+    {
+      "MinX": -40,
+      "MaxX": 40,
+      "MinZ": 110,
+      "MaxZ": 190,
+      "Name": "IslandS"
+    },
+    {
+      "MinX": -190,
+      "MaxX": -110,
+      "MinZ": 110,
+      "MaxZ": 190,
+      "Name": "IslandSW"
+    },
+    {
+      "MinX": -190,
+      "MaxX": -110,
+      "MinZ": -40,
+      "MaxZ": 40,
+      "Name": "IslandW"
+    }
+  ],
+  "Decals": [],
+  "Depth": 256,
+  "Props": [
+    {
+      "PosX": -119,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -181,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": -119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": -181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 31,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -31,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 0,
+      "PosY": 3,
+      "PosZ": -119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 0,
+      "PosY": 3,
+      "PosZ": -181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 181,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 119,
+      "PosY": 3,
+      "PosZ": -150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": -119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": -181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 181,
+      "PosY": 3,
+      "PosZ": 0,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 119,
+      "PosY": 3,
+      "PosZ": 0,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": 31,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": -31,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 181,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 119,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": 181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 150,
+      "PosY": 3,
+      "PosZ": 119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 31,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -31,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 0,
+      "PosY": 3,
+      "PosZ": 181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": 0,
+      "PosY": 3,
+      "PosZ": 119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -119,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -181,
+      "PosY": 3,
+      "PosZ": 150,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": 181,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": 119,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -119,
+      "PosY": 3,
+      "PosZ": 0,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 0,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -181,
+      "PosY": 3,
+      "PosZ": 0,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 3.14,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": 31,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 1.57,
+      "Scale": 2.75
+    },
+    {
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": -31,
+      "PropId": "coniferous_tree_2",
+      "RotationY": 4.71,
+      "Scale": 2.75
+    }
+  ],
+  "SkyboxPath": "Assets/skyboxes/jade_shrine.rtex",
+  "Units": [
+    {
+      "IsEnemy": false,
+      "Player": 0,
+      "PosX": -150,
+      "PosY": 3,
+      "PosZ": -150,
+      "RotationY": 0,
+      "Scale": 1,
+      "UnitId": "survivor_hero"
+    }
+  ],
+  "Vfx": [],
+  "Width": 256
 }
