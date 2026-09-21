@@ -865,14 +865,6 @@
 			"Scale": 0.8
 		},
 		{
-			"PosX": -132.35622,
-			"PosY": -3,
-			"PosZ": -92.374405,
-			"PropId": "grass_tuft_1",
-			"RotationY": 0,
-			"Scale": 0.8
-		},
-		{
 			"PosX": -124.509865,
 			"PosY": 3,
 			"PosZ": -148.33206,
@@ -1786,7 +1778,7 @@
 			"PosY": 3,
 			"PosZ": -150,
 			"RotationY": 0,
-			"Scale": 1,
+			"Scale": 2.0000002,
 			"UnitId": "survivor_hero"
 		}
 	],

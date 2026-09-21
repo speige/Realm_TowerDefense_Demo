@@ -3640,6 +3640,9 @@
 		"abyssal_trench_bottom_sediment.rtex": {
 			"swatchIndex": 0
 		},
+		"abyssal_trench_marine_silt.rtex": {
+			"swatchIndex": 13
+		},
 		"abyssal_trench_salt_scab.rtex": {
 			"swatchIndex": 24
 		},
@@ -3656,11 +3659,8 @@
 			"brightness": 1.6,
 			"swatchIndex": 3
 		},
-		"arcane_rune_ether_trace.rtex": {
-			"swatchIndex": 4
-		},
-		"arcane_rune_flare.rtex": {
-			"swatchIndex": 5
+		"bioluminescent_jungle_aura_petal.rtex": {
+			"swatchIndex": 16
 		},
 		"deep_trench_cavern_grit.rtex": {
 			"swatchIndex": 6
@@ -3680,7 +3680,7 @@
 		"dusty_canyon_granite_basin.rtex": {
 			"Brightness": 1.1,
 			"brightness": 1.1,
-			"swatchIndex": 32
+			"swatchIndex": 10
 		},
 		"dusty_canyon_granite_hill.rtex": {
 			"swatchIndex": 31
@@ -3688,8 +3688,15 @@
 		"dusty_canyon_scarce_soil.rtex": {
 			"swatchIndex": 9
 		},
-		"frost_shard_trail.rtex": {
-			"swatchIndex": 10
+		"floating_isles_void_crack_stone.rtex": {
+			"Scale_Factor": 4,
+			"scale_factor": 4,
+			"swatchIndex": 5
+		},
+		"floating_isles_void_root.rtex": {
+			"Scale_Factor": 4,
+			"scale_factor": 4,
+			"swatchIndex": 4
 		},
 		"frozen_tundra_arctic_dirt.rtex": {
 			"Brightness": 1.5,
@@ -3701,9 +3708,6 @@
 			"brightness": 1.15,
 			"swatchIndex": 12
 		},
-		"magma_flow_lava_vein.rtex": {
-			"swatchIndex": 13
-		},
 		"mangrove_swamp_bog_grass.rtex": {
 			"Brightness": 2.5,
 			"brightness": 2.5,
@@ -3712,18 +3716,9 @@
 		"mangrove_swamp_reed_bed.rtex": {
 			"swatchIndex": 15
 		},
-		"neon_glitch_pulse.rtex": {
-			"swatchIndex": 16
-		},
 		"petrified_forest_gray_granite.rtex": {
 			"swatchIndex": 17,
 			"uv_scale": 0.35
-		},
-		"solar_flare_corona_streak.rtex": {
-			"swatchIndex": 18
-		},
-		"solar_flare_plasma_beam.rtex": {
-			"swatchIndex": 19
 		},
 		"sunken_ruins_crushed_granite.rtex": {
 			"swatchIndex": 20,
@@ -3740,6 +3735,11 @@
 		},
 		"sunken_ruins_salt_sediment.rtex": {
 			"swatchIndex": 26
+		},
+		"volcanic_crag_flame_core.rtex": {
+			"Scale_Factor": 1.9613065,
+			"scale_factor": 1.9613065,
+			"swatchIndex": 8
 		},
 		"whispering_forest_dense_brush.rtex": {
 			"Brightness": 2.5,
