@@ -65,12 +65,116 @@
 	"Depth": 256,
 	"Props": [
 		{
-			"PosX": 0,
-			"PosY": 2.7820668,
-			"PosZ": 181,
-			"PropId": "ancient_altar",
-			"RotationY": -1.17,
-			"Scale": 1
+			"PosX": 148.98018,
+			"PosY": 3,
+			"PosZ": 132.5301,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 125.48763,
+			"PosY": 3,
+			"PosZ": 148.38725,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 155.17789,
+			"PosY": 3,
+			"PosZ": 125.78433,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.3499999
+		},
+		{
+			"PosX": 130.17038,
+			"PosY": 3,
+			"PosZ": 155.86201,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 152.00876,
+			"PosY": 3,
+			"PosZ": 173.77054,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 145.62115,
+			"PosY": 2.794949,
+			"PosZ": 179.96826,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 170.45854,
+			"PosY": 3,
+			"PosZ": 157.81895,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 178.17558,
+			"PosY": 2.9894814,
+			"PosZ": 149.11705,
+			"PropId": "cactus_plant",
+			"RotationY": 284.99997,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 157.30054,
+			"PosY": 3,
+			"PosZ": 177.52264,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 173.45988,
+			"PosY": 3,
+			"PosZ": 162.29462,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 144.6411,
+			"PosY": 3,
+			"PosZ": 123.928986,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 124.776436,
+			"PosY": 3,
+			"PosZ": 158.17735,
+			"PropId": "cactus_plant",
+			"RotationY": 254.99998,
+			"Scale": 1.85
+		},
+		{
+			"PosX": -146.8338,
+			"PosY": 3,
+			"PosZ": 131.66006,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -152.22305,
+			"PosY": 3,
+			"PosZ": 134.5796,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
 		},
 		{
 			"PosX": -154.24567,
@@ -79,6 +183,38 @@
 			"PropId": "cattail_reeds",
 			"RotationY": 0,
 			"Scale": 0.8
+		},
+		{
+			"PosX": -130.7602,
+			"PosY": 3,
+			"PosZ": 155.87164,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -166.2354,
+			"PosY": 3,
+			"PosZ": 158.42915,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -134.8623,
+			"PosY": 3,
+			"PosZ": 162.57176,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -167.10722,
+			"PosY": 3,
+			"PosZ": 150.2612,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
 		},
 		{
 			"PosX": -172.41663,
@@ -103,6 +239,22 @@
 			"PropId": "cattail_reeds",
 			"RotationY": 0,
 			"Scale": 1.15
+		},
+		{
+			"PosX": -149.99854,
+			"PosY": 3,
+			"PosZ": 173.02914,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -155.56158,
+			"PosY": 3,
+			"PosZ": 169.79239,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
 		},
 		{
 			"PosX": -152.23029,
@@ -135,150 +287,6 @@
 			"PropId": "cattail_reeds",
 			"RotationY": 0,
 			"Scale": 1.15
-		},
-		{
-			"PosX": -9.9,
-			"PosY": 2.3044722,
-			"PosZ": 181.9,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.58,
-			"Scale": 1.45
-		},
-		{
-			"PosX": -5.61,
-			"PosY": 1.9870497,
-			"PosZ": 184.2,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 5.16,
-			"Scale": 1.15
-		},
-		{
-			"PosX": -164.68,
-			"PosY": 1.8502938,
-			"PosZ": 180.5,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.8,
-			"Scale": 1.46
-		},
-		{
-			"PosX": 174.02,
-			"PosY": 2.9625373,
-			"PosZ": 166.7,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 6.28,
-			"Scale": 1.37
-		},
-		{
-			"PosX": 9.57,
-			"PosY": 3,
-			"PosZ": 176.85,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.35,
-			"Scale": 1.39
-		},
-		{
-			"PosX": 8.22,
-			"PosY": 3,
-			"PosZ": 177.36,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.17,
-			"Scale": 1.18
-		},
-		{
-			"PosX": -9.3,
-			"PosY": 2.9914277,
-			"PosZ": 178.08,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.36,
-			"Scale": 1.36
-		},
-		{
-			"PosX": -9.51,
-			"PosY": 2.8267498,
-			"PosZ": 179.51,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 5.06,
-			"Scale": 1.43
-		},
-		{
-			"PosX": 11.02,
-			"PosY": 2.2941635,
-			"PosZ": 181.52,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.52,
-			"Scale": 1.48
-		},
-		{
-			"PosX": -174.16,
-			"PosY": 2.9771345,
-			"PosZ": 165.82,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.55,
-			"Scale": 1.23
-		},
-		{
-			"PosX": -162.58,
-			"PosY": 2.746489,
-			"PosZ": 177.52,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.37,
-			"Scale": 1.3
-		},
-		{
-			"PosX": -175.91,
-			"PosY": 2.7926805,
-			"PosZ": 165.37,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 5.25,
-			"Scale": 1.49
-		},
-		{
-			"PosX": 177.07,
-			"PosY": 2.8605945,
-			"PosZ": 162.25,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 2.49,
-			"Scale": 1.21
-		},
-		{
-			"PosX": 163.29,
-			"PosY": 2.6711953,
-			"PosZ": 178.06,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.5,
-			"Scale": 1.48
-		},
-		{
-			"PosX": 165.15,
-			"PosY": 2.788215,
-			"PosZ": 176.38,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 2.48,
-			"Scale": 1.26
-		},
-		{
-			"PosX": 177.66,
-			"PosY": 2.343896,
-			"PosZ": 167.26,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0.11,
-			"Scale": 1.16
-		},
-		{
-			"PosX": 178.12,
-			"PosY": 2.2509751,
-			"PosZ": 167.34,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.25,
-			"Scale": 1.14
-		},
-		{
-			"PosX": 169.29,
-			"PosY": 1.9086295,
-			"PosZ": 178.87,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 5.78,
-			"Scale": 1.42
 		},
 		{
 			"PosX": -126.42498,
@@ -633,36 +641,212 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -4.5,
-			"PosY": 2.776627,
-			"PosZ": 181,
-			"PropId": "crystal_cluster_29",
-			"RotationY": 5.99,
-			"Scale": 0.7
+			"PosX": 175.264,
+			"PosY": 3,
+			"PosZ": 152.19601,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
 		},
 		{
-			"PosX": 171.58,
-			"PosY": 2.0196958,
-			"PosZ": 176.51,
-			"PropId": "crystal_cluster_29",
-			"RotationY": 0.38,
-			"Scale": 1
+			"PosX": 151.4363,
+			"PosY": 2.952658,
+			"PosZ": 178.80026,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
 		},
 		{
-			"PosX": 176.52,
-			"PosY": 1.9442939,
-			"PosZ": 172.12,
-			"PropId": "crystal_cluster_29",
-			"RotationY": 0.1,
-			"Scale": 1
+			"PosX": 145.85617,
+			"PosY": 3,
+			"PosZ": 128.69574,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
-			"PosX": -171.92,
-			"PosY": 2.653519,
-			"PosZ": 171.92,
-			"PropId": "crystal_peak",
-			"RotationY": -0.79,
-			"Scale": 1.1
+			"PosX": 150.31277,
+			"PosY": 2.9999998,
+			"PosZ": 124.29796,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": 122.45587,
+			"PosY": 3,
+			"PosZ": 153.93626,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": 127.11951,
+			"PosY": 3,
+			"PosZ": 152.25209,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
+		},
+		{
+			"PosX": 153.43773,
+			"PosY": 3,
+			"PosZ": 128.44995,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 127.36814,
+			"PosY": 3,
+			"PosZ": 155.18408,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 148.18115,
+			"PosY": 2.9999998,
+			"PosZ": 175.58456,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 174.75986,
+			"PosY": 3,
+			"PosZ": 157.35837,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 156.11783,
+			"PosY": 3,
+			"PosZ": 176.02876,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
+		},
+		{
+			"PosX": 178.83939,
+			"PosY": 2.8899283,
+			"PosZ": 155.64581,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": -10.092398,
+			"PosY": 3,
+			"PosZ": 156.00696,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -9.594727,
+			"PosY": 3,
+			"PosZ": 171.66202,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 14.736037,
+			"PosY": 3,
+			"PosZ": 166.47156,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 17.264782,
+			"PosY": 3,
+			"PosZ": 141.17465,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 7.3047647,
+			"PosY": 3,
+			"PosZ": 152.67447,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -15.4154625,
+			"PosY": 3,
+			"PosZ": 128.72006,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 173.4141,
+			"PosY": 3,
+			"PosZ": 7.443573,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 147.7514,
+			"PosY": 3,
+			"PosZ": -22.184414,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 145.50517,
+			"PosY": 3,
+			"PosZ": -20.978458,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 148.35669,
+			"PosY": 3,
+			"PosZ": 23.701563,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 151.28685,
+			"PosY": 3,
+			"PosZ": 25.451729,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 126.27443,
+			"PosY": 3,
+			"PosZ": 4.3641553,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 174.90874,
+			"PosY": 3,
+			"PosZ": 4.7022886,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 127.78426,
+			"PosY": 3,
+			"PosZ": 7.8013096,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
 		},
 		{
 			"PosX": -182.8,
@@ -809,6 +993,102 @@
 			"Scale": 1.29
 		},
 		{
+			"PosX": -127.80472,
+			"PosY": 2.9999998,
+			"PosZ": 152.1078,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -176.3736,
+			"PosY": 3,
+			"PosZ": 156.21085,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -156.237,
+			"PosY": 3,
+			"PosZ": 174.25235,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -147.21727,
+			"PosY": 3,
+			"PosZ": 125.41411,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -142.41951,
+			"PosY": 3,
+			"PosZ": 131.53831,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -123.72936,
+			"PosY": 3,
+			"PosZ": 157.09032,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -153.13707,
+			"PosY": 3,
+			"PosZ": 129.92674,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -131.05592,
+			"PosY": 3,
+			"PosZ": 160.24876,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -144.37982,
+			"PosY": 3,
+			"PosZ": 174.05368,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -168.60808,
+			"PosY": 3,
+			"PosZ": 154.77429,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -150.52197,
+			"PosY": 2.8950427,
+			"PosZ": 179.51363,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -171.17012,
+			"PosY": 3,
+			"PosZ": 162.36128,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
 			"PosX": -170.1778,
 			"PosY": 3,
 			"PosZ": -151.1354,
@@ -833,12 +1113,36 @@
 			"Scale": 0.8
 		},
 		{
+			"PosX": 173.85107,
+			"PosY": 3,
+			"PosZ": 11.4151,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
 			"PosX": -135.76682,
 			"PosY": 3,
 			"PosZ": -129.05429,
 			"PropId": "grass_tuft_1",
 			"RotationY": 0,
 			"Scale": 0.8
+		},
+		{
+			"PosX": 139.00888,
+			"PosY": 3,
+			"PosZ": 13.929495,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 148.5604,
+			"PosY": 3,
+			"PosZ": -19.719912,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
 		},
 		{
 			"PosX": -127.18175,
@@ -865,6 +1169,70 @@
 			"Scale": 0.8
 		},
 		{
+			"PosX": 154.6621,
+			"PosY": 3,
+			"PosZ": 23.231522,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 143.28448,
+			"PosY": 3,
+			"PosZ": -19.697168,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 145.96022,
+			"PosY": 3,
+			"PosZ": 22.955517,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 128.42786,
+			"PosY": 3,
+			"PosZ": -0.26357937,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 170.04965,
+			"PosY": 3.0000002,
+			"PosZ": -3.5967045,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 172.3112,
+			"PosY": 3.0000002,
+			"PosZ": 5.0410233,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 170.35533,
+			"PosY": 3,
+			"PosZ": -6.3585997,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 138.01344,
+			"PosY": 3,
+			"PosZ": 0.68318367,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
 			"PosX": -124.509865,
 			"PosY": 3,
 			"PosZ": -148.33206,
@@ -881,100 +1249,108 @@
 			"Scale": 0.8
 		},
 		{
-			"PosX": 171.92,
-			"PosY": 2.6821537,
-			"PosZ": 171.92,
-			"PropId": "magic_crystal_pedestal",
-			"RotationY": -2.36,
-			"Scale": 1.2
+			"PosX": 127.140144,
+			"PosY": 3,
+			"PosZ": 10.518881,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
 		},
 		{
-			"PosX": -0,
-			"PosY": 2.4947436,
-			"PosZ": 117.5,
-			"PropId": "palm_tree",
-			"RotationY": 0.05,
-			"Scale": 1.32
+			"PosX": 24.03278,
+			"PosY": 3,
+			"PosZ": 152.7641,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
 		},
 		{
-			"PosX": -11.49,
-			"PosY": 2.2190604,
-			"PosZ": 118.53,
-			"PropId": "palm_tree",
-			"RotationY": 0.79,
-			"Scale": 1.31
+			"PosX": -6.045197,
+			"PosY": 3,
+			"PosZ": 124.9203,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
 		},
 		{
-			"PosX": 11.14,
-			"PosY": 2.4656143,
-			"PosZ": 119.47,
-			"PropId": "palm_tree",
-			"RotationY": 4.18,
-			"Scale": 1.11
+			"PosX": -0.3384142,
+			"PosY": 3,
+			"PosZ": 128.71455,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
 		},
 		{
-			"PosX": -20.94,
-			"PosY": 2.4728243,
-			"PosZ": 125.14,
-			"PropId": "palm_tree",
-			"RotationY": 2.15,
-			"Scale": 1.16
+			"PosX": 4.442935,
+			"PosY": 3,
+			"PosZ": 126.43296,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
-			"PosX": 20.29,
-			"PosY": 2.7656155,
-			"PosZ": 125.91,
-			"PropId": "palm_tree",
-			"RotationY": 6.25,
-			"Scale": 1.24
+			"PosX": 26.7682,
+			"PosY": 3,
+			"PosZ": 156.87463,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
 		},
 		{
-			"PosX": -126.31,
-			"PosY": 1.9492581,
-			"PosZ": 126.31,
-			"PropId": "palm_tree",
-			"RotationY": 1.33,
-			"Scale": 1.17
+			"PosX": 20.317354,
+			"PosY": 3,
+			"PosZ": 158.79239,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
-			"PosX": -135.87,
-			"PosY": 1.9232956,
-			"PosZ": 119.63,
-			"PropId": "palm_tree",
-			"RotationY": 0.11,
-			"Scale": 1.39
+			"PosX": -21.944916,
+			"PosY": 3,
+			"PosZ": 159.78322,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
-			"PosX": 127.02,
-			"PosY": 2.4019616,
-			"PosZ": 127.02,
-			"PropId": "palm_tree",
-			"RotationY": 1.79,
-			"Scale": 1.24
+			"PosX": -24.518398,
+			"PosY": 3,
+			"PosZ": 152.62386,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
 		},
 		{
-			"PosX": -120.53,
-			"PosY": 2.1186287,
-			"PosZ": 136.29,
-			"PropId": "palm_tree",
-			"RotationY": 1.49,
-			"Scale": 1.34
+			"PosX": -27.235662,
+			"PosY": 3,
+			"PosZ": 157.50728,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
 		},
 		{
-			"PosX": 120.53,
-			"PosY": 2.4085839,
-			"PosZ": 136.29,
-			"PropId": "palm_tree",
-			"RotationY": 2.48,
-			"Scale": 1.28
+			"PosX": -3.8452082,
+			"PosY": 3,
+			"PosZ": 177.87363,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
-			"PosX": 136.71,
-			"PosY": 2.5554912,
-			"PosZ": 121.44,
-			"PropId": "palm_tree",
-			"RotationY": 5.9,
-			"Scale": 1.34
+			"PosX": 5.1615686,
+			"PosY": 2.994964,
+			"PosZ": 178.76103,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
+		},
+		{
+			"PosX": 0.75685024,
+			"PosY": 3,
+			"PosZ": 175.01865,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
 		},
 		{
 			"PosX": -23.50657,
@@ -1233,14 +1609,6 @@
 			"Scale": 0.75
 		},
 		{
-			"PosX": -6,
-			"PosY": 2.9775696,
-			"PosZ": 180,
-			"PropId": "rock_formation_7",
-			"RotationY": 4.86,
-			"Scale": 1.5
-		},
-		{
 			"PosX": 182,
 			"PosY": 2.6235573,
 			"PosZ": 6,
@@ -1287,14 +1655,6 @@
 			"PropId": "rock_formation_7",
 			"RotationY": 5.43,
 			"Scale": 0.71
-		},
-		{
-			"PosX": 9.5,
-			"PosY": 2.9415803,
-			"PosZ": 178.5,
-			"PropId": "rock_formation_7",
-			"RotationY": 2.78,
-			"Scale": 1.4
 		},
 		{
 			"PosX": 180.5,
@@ -1409,14 +1769,6 @@
 			"Scale": 0.89
 		},
 		{
-			"PosX": 177.87,
-			"PosY": 2.6270466,
-			"PosZ": 163.85,
-			"PropId": "rock_formation_7",
-			"RotationY": 2.04,
-			"Scale": 1.57
-		},
-		{
 			"PosX": -166.35,
 			"PosY": 2.2370534,
 			"PosZ": 178.07,
@@ -1457,20 +1809,20 @@
 			"Scale": 0.99
 		},
 		{
+			"PosX": 176.4611,
+			"PosY": 2.0669806,
+			"PosZ": 171.26767,
+			"PropId": "rock_formation_7",
+			"RotationY": 2.04,
+			"Scale": 1.57
+		},
+		{
 			"PosX": -138.47986,
 			"PosY": 3,
 			"PosZ": -138.83139,
 			"PropId": "rock_formation_7",
 			"RotationY": 0,
 			"Scale": 1.45
-		},
-		{
-			"PosX": -5,
-			"PosY": 2.7688248,
-			"PosZ": 181,
-			"PropId": "rock_spire",
-			"RotationY": 3.13,
-			"Scale": 0.9
 		},
 		{
 			"PosX": 5,
@@ -1487,6 +1839,14 @@
 			"PropId": "rock_spire",
 			"RotationY": 0.7,
 			"Scale": 1.35
+		},
+		{
+			"PosX": 157.99982,
+			"PosY": 3,
+			"PosZ": 173.41843,
+			"PropId": "rock_spire",
+			"RotationY": 0,
+			"Scale": 1.45
 		},
 		{
 			"PosX": 156.7823,
@@ -1655,6 +2015,102 @@
 			"PropId": "stone_pile",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 175.87273,
+			"PosY": 3,
+			"PosZ": 0.6883917,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 176.48436,
+			"PosY": 3,
+			"PosZ": 9.196032,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 151.33884,
+			"PosY": 3,
+			"PosZ": -22.360592,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 144.04814,
+			"PosY": 3,
+			"PosZ": -23.480421,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 147.75719,
+			"PosY": 2.9999998,
+			"PosZ": -25.766636,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 155.42221,
+			"PosY": 3,
+			"PosZ": 26.509314,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 145.72871,
+			"PosY": 3,
+			"PosZ": 27.176794,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 122.32039,
+			"PosY": 3,
+			"PosZ": 3.0118046,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 151.10501,
+			"PosY": 2.961066,
+			"PosZ": 30.265182,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 178.53479,
+			"PosY": 3,
+			"PosZ": 4.9300194,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 124.552414,
+			"PosY": 3,
+			"PosZ": 7.851592,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 124.637566,
+			"PosY": 3,
+			"PosZ": 0.6361418,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
 		},
 		{
 			"PosX": -182.25421,

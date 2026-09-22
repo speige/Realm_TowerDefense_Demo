@@ -2,6 +2,8 @@
   "WELCOME_MESSAGE": "Welcome to TOWER SURVIVORS! Roguelite skill shop with gold. Buy with [Q, W, E] (-1, -2, -3), Reroll with [R] or Cast Meteor with [D].",
   "SHOP_READY": "SHOP RESTOCKED! Buy with Q/W/E (-1, -2, -3) or Reroll [R]",
   "SHOP_FLOATING": "SHOP READY!",
+  "SHOP_ROTATING_SOON": "Shop refreshing in 5s!",
+  "PERK_SLOT_SOLD_LABEL": "[SOLD OUT]",
   "HERO_DEFEATED": "THE SURVIVOR HERO HAS FALLEN!",
   "VICTORIA_TOTAL": "TOTAL VICTORY! ALL SURVIVORS DEFEATED THE FINAL RAID BOSS!",
   "WAVE_INCOMING": "Wave {0} incoming!",

@@ -25,7 +25,7 @@ public class CustomMap : IWasmModule
     private const float SpawnRingMinRadius = 22.0f;
     private const float SpawnRingMaxRadius = 27.0f;
 
-    private const float ShopRotationInterval = 60.0f;
+    private const float ShopRotationInterval = 40.0f;
     private const float ShopRerollCost = 100.0f;
 
     private const float BaseHeroHp = 1200.0f;
@@ -125,7 +125,8 @@ public class CustomMap : IWasmModule
         public readonly Dictionary<string, int> PerkStacks = new(32);
         public readonly PerkDefinition?[] CurrentDraft = new PerkDefinition?[3];
         public readonly bool[] SlotSold = new bool[3];
-        public float ShopRotationTimer = 60.0f;
+        public float ShopRotationTimer = 40.0f;
+        public bool ShopWarningNotified;
         public int PerksPicked;
         public int RerollCount;
         public float FrostAuraTimer;
@@ -228,7 +229,8 @@ public class CustomMap : IWasmModule
             pState.SlotSold[1] = false;
             pState.SlotSold[2] = false;
             pState.ShopRotationTimer = ShopRotationInterval;
-            TriggerNewShopRotation(pState);
+            pState.ShopWarningNotified = false;
+            TriggerNewShopRotation(pState, resetTimer: true, isAutomatic: true);
 
             ShowNextWaveCountdown(pState);
         }
@@ -432,9 +434,23 @@ public class CustomMap : IWasmModule
     private void UpdateShopRotationTimer(PlayerState pState, float delta)
     {
         pState.ShopRotationTimer -= delta;
+
+        if (pState.ShopRotationTimer <= 5.0f && !pState.ShopWarningNotified)
+        {
+            pState.ShopWarningNotified = true;
+            if (pState.PlayerIndex == 0)
+            {
+                _api.ShowFeedbackText(_api.Translate("SHOP_ROTATING_SOON", pState.PlayerIndex), new Vector3(1f, 0.75f, 0.2f));
+                if (pState.Hero != null)
+                {
+                    _api.CreateFloatingText(_api.Translate("SHOP_ROTATING_SOON", pState.PlayerIndex), pState.Hero.Position + new Vector3(0, 2.5f, 0), new Vector3(1f, 0.75f, 0.2f), 1.2f);
+                }
+            }
+        }
+
         if (pState.ShopRotationTimer <= 0f)
         {
-            TriggerNewShopRotation(pState);
+            TriggerNewShopRotation(pState, resetTimer: true, isAutomatic: true);
         }
     }
 
@@ -447,9 +463,19 @@ public class CustomMap : IWasmModule
         _ => 100f
     };
 
-    private void TriggerNewShopRotation(PlayerState pState)
+    private void TriggerNewShopRotation(PlayerState pState, bool resetTimer = true, bool isAutomatic = false)
     {
-        pState.ShopRotationTimer = ShopRotationInterval;
+        if (resetTimer)
+        {
+            pState.ShopRotationTimer = ShopRotationInterval;
+            pState.ShopWarningNotified = false;
+        }
+
+        if (isAutomatic)
+        {
+            pState.RerollCount = 0;
+        }
+
         pState.SlotSold[0] = false;
         pState.SlotSold[1] = false;
         pState.SlotSold[2] = false;
@@ -552,6 +578,12 @@ public class CustomMap : IWasmModule
         var perk = pState.CurrentDraft[slotIndex];
         if (perk == null) return;
 
+        if (!CanPickPerk(pState, perk))
+        {
+            _api.ShowFeedbackText(_api.Translate("PERK_MAX_STACKS", pState.PlayerIndex), new Vector3(1f, 0.4f, 0.2f));
+            return;
+        }
+
         float cost = GetPerkCost(perk);
         float currentGold = _api.GetPlayerGold(pState.PlayerIndex);
         if (currentGold < cost)
@@ -574,9 +606,10 @@ public class CustomMap : IWasmModule
 
         if (pState.PlayerIndex == 0)
         {
+            string soldLabel = _api.Translate("PERK_SLOT_SOLD_LABEL", pState.PlayerIndex);
             string boughtId = $"perk_choose_{slotIndex + 1}";
             string perkName = _api.Translate(perk.NameKey, pState.PlayerIndex);
-            _api.RegisterAbility(boughtId, $"[BOUGHT] {perkName}", $"[BOUGHT] {perkName} (x{pState.PerkStacks[perk.Id]})", perk.IconPath, isInstant: true);
+            _api.RegisterAbility(boughtId, $"{soldLabel} {perkName}", $"{soldLabel} {perkName} (x{pState.PerkStacks[perk.Id]})", perk.IconPath, isInstant: true);
         }
 
         ApplyPerkAcquisition(pState, perk);
@@ -597,7 +630,7 @@ public class CustomMap : IWasmModule
 
         if (pState.SlotSold[0] && pState.SlotSold[1] && pState.SlotSold[2])
         {
-            TriggerNewShopRotation(pState);
+            TriggerNewShopRotation(pState, resetTimer: true, isAutomatic: true);
         }
     }
 
@@ -674,7 +707,7 @@ public class CustomMap : IWasmModule
         string rerollMsg = string.Format(_api.Translate("REROLL_SUCCESS", pState.PlayerIndex), ShopRerollCost);
         _api.ShowFeedbackText(rerollMsg, new Vector3(1f, 0.85f, 0.2f));
 
-        TriggerNewShopRotation(pState);
+        TriggerNewShopRotation(pState, resetTimer: false, isAutomatic: false);
     }
 
     private string GetHeroProjectileId(PlayerState pState)
@@ -821,11 +854,6 @@ public class CustomMap : IWasmModule
             _api.PlayWarningSound();
         }
 
-        if (pState.ShopRotationTimer < 15f)
-        {
-            TriggerNewShopRotation(pState);
-        }
-
         if (config.IsBoss)
         {
             TriggerRaidBossCinematic(pState);
@@ -867,7 +895,7 @@ public class CustomMap : IWasmModule
         }
         else
         {
-            var spawnPos = Coordinates.GetRandomSpawnPointOnRing(pState.QuadrantCenter, SpawnRingMinRadius, SpawnRingMaxRadius, SpawnHeight);
+            var spawnPos = Coordinates.GetRandomSpawnPointOnRing(_api, pState.QuadrantCenter, SpawnRingMinRadius, SpawnRingMaxRadius, SpawnHeight);
             unit = _api.SpawnUnit(unitType, spawnPos, true);
         }
 
@@ -971,7 +999,7 @@ public class CustomMap : IWasmModule
 
     private void SpawnSingleEscort(PlayerState pState, string unitType)
     {
-        var spawnPos = Coordinates.GetRandomSpawnPointOnRing(pState.QuadrantCenter, SpawnRingMinRadius, SpawnRingMaxRadius, SpawnHeight);
+        var spawnPos = Coordinates.GetRandomSpawnPointOnRing(_api, pState.QuadrantCenter, SpawnRingMinRadius, SpawnRingMaxRadius, SpawnHeight);
         var unit = _api.SpawnUnit(unitType, spawnPos, true);
         if (unit != null)
         {
@@ -1340,7 +1368,7 @@ public class CustomMap : IWasmModule
 
         _api.SetLeaderboardValue(_api.Translate("LB_WAVE", 0), $"{p0.CurrentWave} / {TotalWaves}");
         _api.SetLeaderboardValue(_api.Translate("LB_GOLD", 0), $"{(int)_api.GetPlayerGold(0)} (+{(int)p0.CurrentIncomePerSecond}/s)");
-        _api.SetLeaderboardValue(_api.Translate("LB_SHOP", 0), $"{p0.ShopRotationTimer:F0}s | Perks: {p0.PerksPicked}");
+        _api.SetLeaderboardValue(_api.Translate("LB_SHOP", 0), $"{p0.ShopRotationTimer:F0}s / 40s | Perks: {p0.PerksPicked}");
         _api.SetLeaderboardValue(_api.Translate("LB_KILLS", 0), $"{p0.TotalKills}");
         _api.SetLeaderboardValue(_api.Translate("LB_ENEMIES", 0), $"{Math.Max(0, p0.AliveInWave)}");
     }

@@ -1,13 +1,11 @@
 using System;
 using System.Numerics;
+using Realm.MapAPI;
 
 namespace Realm.Maps;
 
 public static class Coordinates
 {
-    public static readonly Vector3 Center = new Vector3(-150f, 3f, -150f);
-    public static readonly Vector3 HeroCenter = new Vector3(-150f, 3f, -150f);
-
     public static readonly Vector3[] QuadrantCenters = new Vector3[]
     {
         new Vector3(-150f, 3f, -150f), // P1: Northwest (Solo)
@@ -26,23 +24,18 @@ public static class Coordinates
         {
             return QuadrantCenters[playerIndex];
         }
-        if (playerIndex >= 0 && QuadrantCenters.Length > 0)
+        if (QuadrantCenters.Length > 0)
         {
-            return QuadrantCenters[playerIndex % QuadrantCenters.Length];
+            return QuadrantCenters[Math.Abs(playerIndex) % QuadrantCenters.Length];
         }
-        return QuadrantCenters[0];
+        return Vector3.Zero;
     }
 
-    public static Vector3 GetRandomSpawnPointOnRing(Vector3 center, float minRadius = 22.0f, float maxRadius = 27.0f, float spawnHeight = 3f)
+    public static Vector3 GetRandomSpawnPointOnRing(IGameAPI api, Vector3 center, float minRadius = 22.0f, float maxRadius = 27.0f, float spawnHeight = 3f)
     {
-        float angle = Random.Shared.NextSingle() * MathF.Tau;
-        float radius = MathF.Min(27.5f, minRadius + (Random.Shared.NextSingle() * (maxRadius - minRadius)));
+        float angle = api.RandomFloat(0f, MathF.Tau);
+        float radius = MathF.Min(27.5f, minRadius + api.RandomFloat(0f, maxRadius - minRadius));
         return new Vector3(center.X + (MathF.Cos(angle) * radius), spawnHeight, center.Z + (MathF.Sin(angle) * radius));
-    }
-
-    public static Vector3 GetRandomSpawnPointOnRing(int playerIndex, float minRadius = 22.0f, float maxRadius = 27.0f, float spawnHeight = 3f)
-    {
-        return GetRandomSpawnPointOnRing(GetQuadrantCenter(playerIndex), minRadius, maxRadius, spawnHeight);
     }
 }
 
