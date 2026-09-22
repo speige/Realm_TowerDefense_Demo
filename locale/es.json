@@ -2,6 +2,8 @@
   "WELCOME_MESSAGE": "¡Bienvenidos a TOWER SURVIVORS! Tienda rotativa de habilidades por oro. Compra con [Q, W, E] (-1, -2, -3), Reroll con [R] o Hechizo con [D].",
   "SHOP_READY": "¡TIENDA RENOVADA! Compra con Q/W/E (-1, -2, -3) o Reroll [R]",
   "SHOP_FLOATING": "¡TIENDA LISTA!",
+  "SHOP_ROTATING_SOON": "¡Tienda renovándose en 5s!",
+  "PERK_SLOT_SOLD_LABEL": "[AGOTADO]",
   "HERO_DEFEATED": "¡EL HÉROE DEL SURVIVOR HA CAÍDO!",
   "VICTORIA_TOTAL": "¡VICTORIA TOTAL! ¡TODOS LOS SUPERVIVIENTES DERROTARON AL GRAN RAID BOSS!",
   "WAVE_INCOMING": "¡Oleada {0} entrante!",

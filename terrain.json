@@ -65,260 +65,2164 @@
 	"Depth": 256,
 	"Props": [
 		{
-			"PosX": -150,
+			"PosX": 148.98018,
 			"PosY": 3,
-			"PosZ": -119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
+			"PosZ": 132.5301,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
 		},
 		{
-			"PosX": -119,
+			"PosX": 125.48763,
 			"PosY": 3,
-			"PosZ": -150,
+			"PosZ": 148.38725,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 155.17789,
+			"PosY": 3,
+			"PosZ": 125.78433,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.3499999
+		},
+		{
+			"PosX": 130.17038,
+			"PosY": 3,
+			"PosZ": 155.86201,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 152.00876,
+			"PosY": 3,
+			"PosZ": 173.77054,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 145.62115,
+			"PosY": 2.794949,
+			"PosZ": 179.96826,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 170.45854,
+			"PosY": 3,
+			"PosZ": 157.81895,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 178.17558,
+			"PosY": 2.9894814,
+			"PosZ": 149.11705,
+			"PropId": "cactus_plant",
+			"RotationY": 284.99997,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 157.30054,
+			"PosY": 3,
+			"PosZ": 177.52264,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 173.45988,
+			"PosY": 3,
+			"PosZ": 162.29462,
+			"PropId": "cactus_plant",
+			"RotationY": 270,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 144.6411,
+			"PosY": 3,
+			"PosZ": 123.928986,
+			"PropId": "cactus_plant",
+			"RotationY": 0,
+			"Scale": 1.85
+		},
+		{
+			"PosX": 124.776436,
+			"PosY": 3,
+			"PosZ": 158.17735,
+			"PropId": "cactus_plant",
+			"RotationY": 254.99998,
+			"Scale": 1.85
+		},
+		{
+			"PosX": -146.8338,
+			"PosY": 3,
+			"PosZ": 131.66006,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -152.22305,
+			"PosY": 3,
+			"PosZ": 134.5796,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -154.24567,
+			"PosY": 3,
+			"PosZ": -19.01319,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -130.7602,
+			"PosY": 3,
+			"PosZ": 155.87164,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -166.2354,
+			"PosY": 3,
+			"PosZ": 158.42915,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -134.8623,
+			"PosY": 3,
+			"PosZ": 162.57176,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -167.10722,
+			"PosY": 3,
+			"PosZ": 150.2612,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -172.41663,
+			"PosY": 3,
+			"PosZ": -7.393507,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -128.58804,
+			"PosY": 3,
+			"PosZ": 16.432428,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -156.75278,
+			"PosY": 3,
+			"PosZ": 14.697942,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -149.99854,
+			"PosY": 3,
+			"PosZ": 173.02914,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -155.56158,
+			"PosY": 3,
+			"PosZ": 169.79239,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -152.23029,
+			"PosY": 3,
+			"PosZ": -20.014904,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -165.02957,
+			"PosY": 3,
+			"PosZ": -22.703484,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -128.02205,
+			"PosY": 3,
+			"PosZ": -2.8089218,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -140.16403,
+			"PosY": 3,
+			"PosZ": -4.9011736,
+			"PropId": "cattail_reeds",
+			"RotationY": 0,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -126.42498,
+			"PosY": 2.9983451,
+			"PosZ": -131.9848,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 1
+		},
+		{
+			"PosX": -128.54773,
+			"PosY": 3,
+			"PosZ": -163.7327,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -129.84561,
+			"PosY": 3,
+			"PosZ": -166.4549,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -131.25836,
+			"PosY": 2.932289,
+			"PosZ": -173.23,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -132.05936,
+			"PosY": 3,
+			"PosZ": -169.2564,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -134.62192,
+			"PosY": 3,
+			"PosZ": -165.563,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -169.8073,
+			"PosY": 3,
+			"PosZ": -167.63673,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -168.9587,
+			"PosY": 3,
+			"PosZ": -170.85799,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -170.8616,
+			"PosY": 2.67478,
+			"PosZ": -173.23561,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -174.24794,
+			"PosY": 2.3129725,
+			"PosZ": -171.8032,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -130.78267,
+			"PosY": 2.3893983,
+			"PosZ": -123.57171,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -133.50618,
+			"PosY": 2.8582761,
+			"PosZ": -124.44368,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -135.79051,
+			"PosY": 2.736477,
+			"PosZ": -122.32756,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -130.56454,
+			"PosY": 2.9999998,
+			"PosZ": -129.86818,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -134.26747,
+			"PosY": 3,
+			"PosZ": -126.55313,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -126.70832,
+			"PosY": 3,
+			"PosZ": -161.88547,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -165.75597,
+			"PosY": 2.9056406,
+			"PosZ": -124.28324,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -164.06915,
+			"PosY": 3,
+			"PosZ": -127.08806,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -131.72578,
+			"PosY": 3,
+			"PosZ": -160.99481,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -124.76738,
+			"PosY": 2.830756,
+			"PosZ": -166.99677,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -167.99734,
+			"PosY": 3,
+			"PosZ": -127.17276,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -167.06525,
+			"PosY": 3,
+			"PosZ": -129.07338,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -170.79309,
+			"PosY": 2.2644897,
+			"PosZ": -124.22219,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -132.03609,
+			"PosY": 3,
+			"PosZ": -165.23369,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -171.09544,
+			"PosY": 2.6474922,
+			"PosZ": -126.64828,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -129.80283,
+			"PosY": 3.0000002,
+			"PosZ": -169.13573,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -171.18297,
+			"PosY": 2.9280858,
+			"PosZ": -128.97653,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -174.37488,
+			"PosY": 2.3820362,
+			"PosZ": -128.06906,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -174.25507,
+			"PosY": 2.7148905,
+			"PosZ": -130.26273,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -134.73238,
+			"PosY": 3,
+			"PosZ": -172.26273,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -165.23015,
+			"PosY": 3,
+			"PosZ": -165.25719,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -160.62128,
+			"PosY": 3,
+			"PosZ": -172.39278,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -166.15424,
+			"PosY": 3,
+			"PosZ": -170.85799,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -164.48979,
+			"PosY": 3,
+			"PosZ": -173.98479,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -173.62967,
+			"PosY": 3,
+			"PosZ": -166.96077,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 3.8399997,
+			"Scale": 1.42
+		},
+		{
+			"PosX": -166.81921,
+			"PosY": 3,
+			"PosZ": -173.84987,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -160.93387,
+			"PosY": 2.6052456,
+			"PosZ": -179.54636,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -162.96826,
+			"PosY": 2.6884801,
+			"PosZ": -178.45227,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -168.23251,
+			"PosY": 1.9343144,
+			"PosZ": -178.91766,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -167.25034,
+			"PosY": 2.4664707,
+			"PosZ": -122.641495,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -168.32506,
+			"PosY": 2.7169209,
+			"PosZ": -124.816895,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -126.483444,
+			"PosY": 2.6494064,
+			"PosZ": -128.89774,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -130.1205,
+			"PosY": 2.892427,
+			"PosZ": -127.183395,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -127.277596,
+			"PosY": 2.9774153,
+			"PosZ": -168.39307,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 175.264,
+			"PosY": 3,
+			"PosZ": 152.19601,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
+		},
+		{
+			"PosX": 151.4363,
+			"PosY": 2.952658,
+			"PosZ": 178.80026,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": 145.85617,
+			"PosY": 3,
+			"PosZ": 128.69574,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 150.31277,
+			"PosY": 2.9999998,
+			"PosZ": 124.29796,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": 122.45587,
+			"PosY": 3,
+			"PosZ": 153.93626,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": 127.11951,
+			"PosY": 3,
+			"PosZ": 152.25209,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
+		},
+		{
+			"PosX": 153.43773,
+			"PosY": 3,
+			"PosZ": 128.44995,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 127.36814,
+			"PosY": 3,
+			"PosZ": 155.18408,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 148.18115,
+			"PosY": 2.9999998,
+			"PosZ": 175.58456,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 174.75986,
+			"PosY": 3,
+			"PosZ": 157.35837,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 156.11783,
+			"PosY": 3,
+			"PosZ": 176.02876,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 1.5
+		},
+		{
+			"PosX": 178.83939,
+			"PosY": 2.8899283,
+			"PosZ": 155.64581,
+			"PropId": "crystal_cluster_10",
+			"RotationY": 0,
+			"Scale": 3.15
+		},
+		{
+			"PosX": -10.092398,
+			"PosY": 3,
+			"PosZ": 156.00696,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -9.594727,
+			"PosY": 3,
+			"PosZ": 171.66202,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 14.736037,
+			"PosY": 3,
+			"PosZ": 166.47156,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 17.264782,
+			"PosY": 3,
+			"PosZ": 141.17465,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 7.3047647,
+			"PosY": 3,
+			"PosZ": 152.67447,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -15.4154625,
+			"PosY": 3,
+			"PosZ": 128.72006,
+			"PropId": "crystal_ore_2",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 173.4141,
+			"PosY": 3,
+			"PosZ": 7.443573,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 147.7514,
+			"PosY": 3,
+			"PosZ": -22.184414,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 145.50517,
+			"PosY": 3,
+			"PosZ": -20.978458,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 148.35669,
+			"PosY": 3,
+			"PosZ": 23.701563,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": 151.28685,
+			"PosY": 3,
+			"PosZ": 25.451729,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 126.27443,
+			"PosY": 3,
+			"PosZ": 4.3641553,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 174.90874,
+			"PosY": 3,
+			"PosZ": 4.7022886,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 127.78426,
+			"PosY": 3,
+			"PosZ": 7.8013096,
+			"PropId": "fantasy_mushroom",
+			"RotationY": 0,
+			"Scale": 1.05
+		},
+		{
+			"PosX": -182.8,
+			"PosY": 2.5804663,
+			"PosZ": 7.86,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 5.35,
+			"Scale": 1.31
+		},
+		{
+			"PosX": -175.45,
+			"PosY": 3,
+			"PosZ": -12.82,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 6.23,
+			"Scale": 1.31
+		},
+		{
+			"PosX": 6.9,
+			"PosY": 3,
+			"PosZ": -177.65,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 6.22,
+			"Scale": 1.15
+		},
+		{
+			"PosX": -178.07,
+			"PosY": 3,
+			"PosZ": -7.7,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 2.81,
+			"Scale": 1.12
+		},
+		{
+			"PosX": 5.99,
+			"PosY": 2.9999998,
+			"PosZ": 177.86,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 6.14,
+			"Scale": 1.21
+		},
+		{
+			"PosX": -180.63,
+			"PosY": 2.879057,
+			"PosZ": 10.08,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 3.84,
+			"Scale": 1.06
+		},
+		{
+			"PosX": 177.97,
+			"PosY": 2.678411,
+			"PosZ": -163.5,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 5.31,
+			"Scale": 1.3
+		},
+		{
+			"PosX": -7.57,
+			"PosY": 2.233746,
+			"PosZ": -182.24,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 5.77,
+			"Scale": 1.09
+		},
+		{
+			"PosX": 7.85,
+			"PosY": 1.9463899,
+			"PosZ": -183.28,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 3.76,
+			"Scale": 1.02
+		},
+		{
+			"PosX": 181.48,
+			"PosY": 2.5979028,
+			"PosZ": -8.05,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 5.98,
+			"Scale": 1.13
+		},
+		{
+			"PosX": -176.21,
+			"PosY": 2.975432,
+			"PosZ": -163.09,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 3.04,
+			"Scale": 1.35
+		},
+		{
+			"PosX": -162.62,
+			"PosY": 2.9981136,
+			"PosZ": 175.55,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 4.59,
+			"Scale": 1.04
+		},
+		{
+			"PosX": 176.84,
+			"PosY": 2.8463428,
+			"PosZ": -163.81,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 6.27,
+			"Scale": 1.13
+		},
+		{
+			"PosX": -174.51,
+			"PosY": 2.800775,
+			"PosZ": 167.32,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 0.57,
+			"Scale": 1.28
+		},
+		{
+			"PosX": -178.64,
+			"PosY": 2.2450147,
+			"PosZ": -166.24,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 2.47,
+			"Scale": 1.14
+		},
+		{
+			"PosX": -170.05,
+			"PosY": 2.35362,
+			"PosZ": -175.71,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 1.15,
+			"Scale": 1.15
+		},
+		{
+			"PosX": 166.13,
+			"PosY": 1.9024158,
+			"PosZ": -180.29,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 5.06,
+			"Scale": 1.25
+		},
+		{
+			"PosX": -179.48,
+			"PosY": 1.385733,
+			"PosZ": 169.83,
+			"PropId": "fantasy_tree_10",
+			"RotationY": 1.73,
+			"Scale": 1.29
+		},
+		{
+			"PosX": -127.80472,
+			"PosY": 2.9999998,
+			"PosZ": 152.1078,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -176.3736,
+			"PosY": 3,
+			"PosZ": 156.21085,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -156.237,
+			"PosY": 3,
+			"PosZ": 174.25235,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -147.21727,
+			"PosY": 3,
+			"PosZ": 125.41411,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -142.41951,
+			"PosY": 3,
+			"PosZ": 131.53831,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -123.72936,
+			"PosY": 3,
+			"PosZ": 157.09032,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -153.13707,
+			"PosY": 3,
+			"PosZ": 129.92674,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -131.05592,
+			"PosY": 3,
+			"PosZ": 160.24876,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -144.37982,
+			"PosY": 3,
+			"PosZ": 174.05368,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -168.60808,
+			"PosY": 3,
+			"PosZ": 154.77429,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -150.52197,
+			"PosY": 2.8950427,
+			"PosZ": 179.51363,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 4.35
+		},
+		{
+			"PosX": -171.17012,
+			"PosY": 3,
+			"PosZ": 162.36128,
+			"PropId": "fantasy_tree_13",
+			"RotationY": 0,
+			"Scale": 2.9
+		},
+		{
+			"PosX": -170.1778,
+			"PosY": 3,
+			"PosZ": -151.1354,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -133.21608,
+			"PosY": 3,
+			"PosZ": -140.3833,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -156.8387,
+			"PosY": 3,
+			"PosZ": -145.69136,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": 173.85107,
+			"PosY": 3,
+			"PosZ": 11.4151,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -135.76682,
+			"PosY": 3,
+			"PosZ": -129.05429,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": 139.00888,
+			"PosY": 3,
+			"PosZ": 13.929495,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 148.5604,
+			"PosY": 3,
+			"PosZ": -19.719912,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -127.18175,
+			"PosY": 3,
+			"PosZ": -155.58086,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -131.47072,
+			"PosY": 3,
+			"PosZ": -154.04388,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -172.15724,
+			"PosY": 3.0000002,
+			"PosZ": -136.53314,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": 154.6621,
+			"PosY": 3,
+			"PosZ": 23.231522,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 143.28448,
+			"PosY": 3,
+			"PosZ": -19.697168,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 145.96022,
+			"PosY": 3,
+			"PosZ": 22.955517,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 128.42786,
+			"PosY": 3,
+			"PosZ": -0.26357937,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 170.04965,
+			"PosY": 3.0000002,
+			"PosZ": -3.5967045,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 172.3112,
+			"PosY": 3.0000002,
+			"PosZ": 5.0410233,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 170.35533,
+			"PosY": 3,
+			"PosZ": -6.3585997,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 138.01344,
+			"PosY": 3,
+			"PosZ": 0.68318367,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -124.509865,
+			"PosY": 3,
+			"PosZ": -148.33206,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -125.789024,
+			"PosY": 3,
+			"PosZ": -143.30145,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": 127.140144,
+			"PosY": 3,
+			"PosZ": 10.518881,
+			"PropId": "grass_tuft_1",
+			"RotationY": 0,
+			"Scale": 0.85
+		},
+		{
+			"PosX": 24.03278,
+			"PosY": 3,
+			"PosZ": 152.7641,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
+		},
+		{
+			"PosX": -6.045197,
+			"PosY": 3,
+			"PosZ": 124.9203,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
+		},
+		{
+			"PosX": -0.3384142,
+			"PosY": 3,
+			"PosZ": 128.71455,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
+		},
+		{
+			"PosX": 4.442935,
+			"PosY": 3,
+			"PosZ": 126.43296,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 26.7682,
+			"PosY": 3,
+			"PosZ": 156.87463,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
+		},
+		{
+			"PosX": 20.317354,
+			"PosY": 3,
+			"PosZ": 158.79239,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -21.944916,
+			"PosY": 3,
+			"PosZ": 159.78322,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -24.518398,
+			"PosY": 3,
+			"PosZ": 152.62386,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
+		},
+		{
+			"PosX": -27.235662,
+			"PosY": 3,
+			"PosZ": 157.50728,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
+		},
+		{
+			"PosX": -3.8452082,
+			"PosY": 3,
+			"PosZ": 177.87363,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 5.1615686,
+			"PosY": 2.994964,
+			"PosZ": 178.76103,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 2.45
+		},
+		{
+			"PosX": 0.75685024,
+			"PosY": 3,
+			"PosZ": 175.01865,
+			"PropId": "lava_rock_pinnacle",
+			"RotationY": 0,
+			"Scale": 4.1
+		},
+		{
+			"PosX": -23.50657,
+			"PosY": 3,
+			"PosZ": -138.3872,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 6.404751,
+			"PosY": 2.8675494,
+			"PosZ": -120.5761,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -11.910796,
+			"PosY": 3,
+			"PosZ": -173.3235,
+			"PropId": "palm_tree",
+			"RotationY": 0.66,
+			"Scale": 1.19
+		},
+		{
+			"PosX": -4.102417,
+			"PosY": 2.498686,
+			"PosZ": -118.03735,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 4.91868,
+			"PosY": 3,
+			"PosZ": -125.50013,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 4.619786,
+			"PosY": 3,
+			"PosZ": -174.07484,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 1.5888027,
+			"PosY": 2.0141366,
+			"PosZ": -115.99757,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 1.2047371,
+			"PosY": 3,
+			"PosZ": -171.04613,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -21.803612,
+			"PosY": 3,
+			"PosZ": -150.3411,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -14.036268,
+			"PosY": 2.9981992,
+			"PosZ": -175.65233,
+			"PropId": "palm_tree",
+			"RotationY": 2.28,
+			"Scale": 2.5999994
+		},
+		{
+			"PosX": -1.4250422,
+			"PosY": 3.0000002,
+			"PosZ": -175.39474,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -22.907106,
+			"PosY": 3,
+			"PosZ": -146.2978,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 24.973045,
+			"PosY": 3,
+			"PosZ": -143.0437,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -20.821762,
+			"PosY": 3,
+			"PosZ": -142.12323,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 23.402273,
+			"PosY": 3,
+			"PosZ": -147.21498,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 2.2740002,
+			"PosY": 1.8346543,
+			"PosZ": -184.47803,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 25.113018,
+			"PosY": 3,
+			"PosZ": -151.72166,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 25.946327,
+			"PosY": 3,
+			"PosZ": -138.33328,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": 0.27209663,
+			"PosY": 2.999275,
+			"PosZ": -121.34178,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -27.270298,
+			"PosY": 3,
+			"PosZ": -142.69629,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -28.779629,
+			"PosY": 2.9956026,
+			"PosZ": -148.61145,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 30.281933,
+			"PosY": 2.6361651,
+			"PosZ": -140.81334,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": 29.902378,
+			"PosY": 2.9909658,
+			"PosZ": -148.87793,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -4.0338306,
+			"PosY": 2.7534795,
+			"PosZ": -180.7673,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -3.8551471,
+			"PosY": 3,
+			"PosZ": -171.48558,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -7.4501476,
+			"PosY": 3,
+			"PosZ": -175.17882,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 2.65
+		},
+		{
+			"PosX": -4.0351515,
+			"PosY": 3,
+			"PosZ": -124.539566,
+			"PropId": "palm_tree",
+			"RotationY": 0,
+			"Scale": 1.45
+		},
+		{
+			"PosX": -177,
+			"PosY": 3,
+			"PosZ": -11,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.77,
+			"Scale": 1.49
+		},
+		{
+			"PosX": -180,
+			"PosY": 3,
+			"PosZ": -8,
+			"PropId": "rock_formation_7",
+			"RotationY": 2.18,
+			"Scale": 1.22
+		},
+		{
+			"PosX": 8,
+			"PosY": 2.2617815,
+			"PosZ": -182,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.89,
+			"Scale": 1.28
 		},
 		{
 			"PosX": -181,
-			"PosY": 3,
-			"PosZ": -150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
+			"PosY": 2.8229637,
+			"PosZ": 9.7,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.48,
+			"Scale": 0.75
 		},
 		{
-			"PosX": -150,
+			"PosX": 178,
 			"PosY": 3,
-			"PosZ": -181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
+			"PosZ": -7.3,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.25,
+			"Scale": 0.75
 		},
 		{
-			"PosX": -150,
-			"PosY": 3,
-			"PosZ": -31,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
+			"PosX": 182,
+			"PosY": 2.6235573,
+			"PosZ": 6,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.44,
+			"Scale": 1.34
 		},
 		{
-			"PosX": -31,
-			"PosY": 3,
-			"PosZ": -150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
+			"PosX": -10,
+			"PosY": 2.9437418,
+			"PosZ": -178.3,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.23,
+			"Scale": 0.82
 		},
 		{
-			"PosX": -119,
+			"PosX": -179.5,
 			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
+			"PosZ": -8.8,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.92,
+			"Scale": 0.85
+		},
+		{
+			"PosX": -178.5,
+			"PosY": 3,
+			"PosZ": 7.5,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.83,
+			"Scale": 1.69
+		},
+		{
+			"PosX": 5.5,
+			"PosY": 2.887497,
+			"PosZ": -179.8,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.03,
+			"Scale": 0.97
+		},
+		{
+			"PosX": -182.5,
+			"PosY": 2.7819777,
+			"PosZ": -5.8,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.43,
+			"Scale": 0.71
+		},
+		{
+			"PosX": 180.5,
+			"PosY": 2.7338216,
+			"PosZ": -9.5,
+			"PropId": "rock_formation_7",
+			"RotationY": 0.6,
+			"Scale": 1.36
+		},
+		{
+			"PosX": 7,
+			"PosY": 2.764033,
+			"PosZ": 180.7,
+			"PropId": "rock_formation_7",
+			"RotationY": 2.19,
+			"Scale": 0.99
+		},
+		{
+			"PosX": -8.5,
+			"PosY": 2.3452623,
+			"PosZ": 182.2,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.53,
+			"Scale": 0.8
+		},
+		{
+			"PosX": 184.78,
+			"PosY": 1.8296611,
+			"PosZ": -5,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.91,
+			"Scale": 1.91
+		},
+		{
+			"PosX": 184.78,
+			"PosY": 1.9231052,
+			"PosZ": 5,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.62,
+			"Scale": 1.9
+		},
+		{
+			"PosX": 163.35,
+			"PosY": 2.9961758,
+			"PosZ": -175.67,
+			"PropId": "rock_formation_7",
+			"RotationY": 4.01,
+			"Scale": 0.84
+		},
+		{
+			"PosX": -178.37,
+			"PosY": 2.6219716,
+			"PosZ": -163.65,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.35,
+			"Scale": 0.93
+		},
+		{
+			"PosX": -163.85,
+			"PosY": 2.9932098,
+			"PosZ": 175.87,
+			"PropId": "rock_formation_7",
+			"RotationY": 6.23,
+			"Scale": 1.69
+		},
+		{
+			"PosX": 175.37,
+			"PosY": 2.8668087,
+			"PosZ": -165.77,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.05,
+			"Scale": 0.77
+		},
+		{
+			"PosX": -165.97,
+			"PosY": 2.4807925,
+			"PosZ": -177.87,
+			"PropId": "rock_formation_7",
+			"RotationY": 5.73,
+			"Scale": 1.44
+		},
+		{
+			"PosX": -168.47,
+			"PosY": 2.5938754,
+			"PosZ": -175.67,
+			"PropId": "rock_formation_7",
+			"RotationY": 0.56,
+			"Scale": 0.96
+		},
+		{
+			"PosX": -175.87,
+			"PosY": 2.7113461,
+			"PosZ": 165.97,
+			"PropId": "rock_formation_7",
+			"RotationY": 0.58,
+			"Scale": 1.42
+		},
+		{
+			"PosX": 165.85,
+			"PosY": 2.4270315,
+			"PosZ": -177.87,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.54,
+			"Scale": 1.51
+		},
+		{
+			"PosX": 175.37,
+			"PosY": 2.8469515,
+			"PosZ": 166.05,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.38,
+			"Scale": 0.89
+		},
+		{
+			"PosX": -166.35,
+			"PosY": 2.2370534,
+			"PosZ": 178.07,
+			"PropId": "rock_formation_7",
+			"RotationY": 4.79,
+			"Scale": 0.95
+		},
+		{
+			"PosX": 177.87,
+			"PosY": 2.1883173,
+			"PosZ": -167.97,
+			"PropId": "rock_formation_7",
+			"RotationY": 1.99,
+			"Scale": 1.37
+		},
+		{
+			"PosX": 165.47,
+			"PosY": 2.4451332,
+			"PosZ": 178.07,
+			"PropId": "rock_formation_7",
+			"RotationY": 4.69,
+			"Scale": 0.78
+		},
+		{
+			"PosX": 167.97,
+			"PosY": 2.5612516,
+			"PosZ": 175.87,
+			"PropId": "rock_formation_7",
+			"RotationY": 3.91,
+			"Scale": 1.42
+		},
+		{
+			"PosX": -178.37,
+			"PosY": 1.8570429,
+			"PosZ": 168.17,
+			"PropId": "rock_formation_7",
+			"RotationY": 4.94,
+			"Scale": 0.99
+		},
+		{
+			"PosX": 176.4611,
+			"PosY": 2.0669806,
+			"PosZ": 171.26767,
+			"PropId": "rock_formation_7",
+			"RotationY": 2.04,
+			"Scale": 1.57
+		},
+		{
+			"PosX": -138.47986,
+			"PosY": 3,
+			"PosZ": -138.83139,
+			"PropId": "rock_formation_7",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 1.45
 		},
 		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": -119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -181,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": -181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -150,
-			"PosY": 3,
-			"PosZ": 31,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 31,
-			"PosY": 3,
-			"PosZ": -150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -150,
-			"PosY": 3,
-			"PosZ": 119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 119,
-			"PosY": 3,
-			"PosZ": -150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -119,
-			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 150,
-			"PosY": 3,
-			"PosZ": -119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": 119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 119,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -181,
-			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 150,
-			"PosY": 3,
-			"PosZ": -181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -31,
-			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 150,
-			"PosY": 3,
-			"PosZ": -31,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": -150,
-			"PosY": 3,
+			"PosX": 5,
+			"PosY": 2.770029,
 			"PosZ": 181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
+			"PropId": "rock_spire",
+			"RotationY": 2.85,
+			"Scale": 0.9
 		},
 		{
-			"PosX": 181,
+			"PosX": -175.46,
+			"PosY": 2.4722693,
+			"PosZ": 168.38,
+			"PropId": "rock_spire",
+			"RotationY": 0.7,
+			"Scale": 1.35
+		},
+		{
+			"PosX": 157.99982,
 			"PosY": 3,
-			"PosZ": -150,
-			"PropId": "coniferous_tree_2",
+			"PosZ": 173.41843,
+			"PropId": "rock_spire",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 1.45
 		},
 		{
-			"PosX": 31,
-			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
+			"PosX": 156.7823,
+			"PosY": 2.9465525,
+			"PosZ": -121.62265,
+			"PropId": "snow_pine_tree",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 4.25
 		},
 		{
-			"PosX": 150,
+			"PosX": 173.4308,
 			"PosY": 3,
-			"PosZ": 31,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 0,
-			"PosY": 3,
-			"PosZ": 181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 181,
-			"PosY": 3,
-			"PosZ": 0,
-			"PropId": "coniferous_tree_2",
+			"PosZ": -142.88457,
+			"PropId": "snow_pine_tree",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 4.25
 		},
 		{
-			"PosX": 119,
+			"PosX": 144.01413,
 			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 3.14,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 150,
-			"PosY": 3,
-			"PosZ": 119,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 4.71,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 150,
-			"PosY": 3,
-			"PosZ": 181,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 1.57,
-			"Scale": 2.75
-		},
-		{
-			"PosX": 181,
-			"PosY": 3,
-			"PosZ": 150,
-			"PropId": "coniferous_tree_2",
+			"PosZ": -176.5548,
+			"PropId": "snow_pine_tree",
 			"RotationY": 0,
-			"Scale": 2.75
+			"Scale": 4.25
+		},
+		{
+			"PosX": 151.21664,
+			"PosY": 3,
+			"PosZ": -170.4192,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 124.06119,
+			"PosY": 3,
+			"PosZ": -138.55661,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 120.93225,
+			"PosY": 2.887093,
+			"PosZ": -144.65396,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 143.97464,
+			"PosY": 2.9772422,
+			"PosZ": -121.84105,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 127.49906,
+			"PosY": 3,
+			"PosZ": -145.85104,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 121.33306,
+			"PosY": 2.9494538,
+			"PosZ": -153.94273,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 151.10187,
+			"PosY": 3,
+			"PosZ": -127.64811,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 177.07385,
+			"PosY": 2.8255062,
+			"PosZ": -137.40291,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 180.05379,
+			"PosY": 2.67859,
+			"PosZ": -143.41216,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 179.08968,
+			"PosY": 2.9353375,
+			"PosZ": -149.44562,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 151.31778,
+			"PosY": 2.467779,
+			"PosZ": -181.87462,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 158.07515,
+			"PosY": 2.9997518,
+			"PosZ": -176.24945,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 150.80934,
+			"PosY": 2.4223256,
+			"PosZ": -117.953964,
+			"PropId": "snow_pine_tree",
+			"RotationY": 0,
+			"Scale": 4.25
+		},
+		{
+			"PosX": 24.75679,
+			"PosY": 3,
+			"PosZ": -141.0046,
+			"PropId": "stone_pile",
+			"RotationY": 0,
+			"Scale": 1.2
+		},
+		{
+			"PosX": 2.151205,
+			"PosY": 3,
+			"PosZ": -138.57845,
+			"PropId": "stone_pile",
+			"RotationY": 60,
+			"Scale": 1.2
+		},
+		{
+			"PosX": -9.860956,
+			"PosY": 3,
+			"PosZ": -132.11674,
+			"PropId": "stone_pile",
+			"RotationY": 240,
+			"Scale": 1.1
+		},
+		{
+			"PosX": 3.677814,
+			"PosY": 3,
+			"PosZ": -171.96404,
+			"PropId": "stone_pile",
+			"RotationY": 0,
+			"Scale": 1.4000001
+		},
+		{
+			"PosX": -11.977107,
+			"PosY": 3,
+			"PosZ": -151.40024,
+			"PropId": "stone_pile",
+			"RotationY": 0,
+			"Scale": 1.4000001
+		},
+		{
+			"PosX": 175.87273,
+			"PosY": 3,
+			"PosZ": 0.6883917,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 176.48436,
+			"PosY": 3,
+			"PosZ": 9.196032,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 151.33884,
+			"PosY": 3,
+			"PosZ": -22.360592,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 144.04814,
+			"PosY": 3,
+			"PosZ": -23.480421,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 147.75719,
+			"PosY": 2.9999998,
+			"PosZ": -25.766636,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 155.42221,
+			"PosY": 3,
+			"PosZ": 26.509314,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 145.72871,
+			"PosY": 3,
+			"PosZ": 27.176794,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": 122.32039,
+			"PosY": 3,
+			"PosZ": 3.0118046,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 151.10501,
+			"PosY": 2.961066,
+			"PosZ": 30.265182,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 178.53479,
+			"PosY": 3,
+			"PosZ": 4.9300194,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.4
+		},
+		{
+			"PosX": 124.552414,
+			"PosY": 3,
+			"PosZ": 7.851592,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 2.0000005
+		},
+		{
+			"PosX": 124.637566,
+			"PosY": 3,
+			"PosZ": 0.6361418,
+			"PropId": "toadstool",
+			"RotationY": 0,
+			"Scale": 1.5000004
+		},
+		{
+			"PosX": -182.25421,
+			"PosY": 2.7264535,
+			"PosZ": 7.464919,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -177.78178,
+			"PosY": 3,
+			"PosZ": 1.1943808,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -177.63452,
+			"PosY": 2.99456,
+			"PosZ": 14.247898,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -121.78337,
+			"PosY": 3,
+			"PosZ": 0.21569443,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -147.59393,
+			"PosY": 3,
+			"PosZ": 23.183535,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -148.25209,
+			"PosY": 3,
+			"PosZ": -24.088606,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -142.13358,
+			"PosY": 3,
+			"PosZ": -27.153896,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -156.36575,
+			"PosY": 3,
+			"PosZ": -27.763489,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -139.40825,
+			"PosY": 2.9921124,
+			"PosZ": 28.743189,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -155.15761,
+			"PosY": 3,
+			"PosZ": 28.754642,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -147.25839,
+			"PosY": 2.971696,
+			"PosZ": 31.931274,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -148.46593,
+			"PosY": 2.462304,
+			"PosZ": -34.417778,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -126.28341,
+			"PosY": 3,
+			"PosZ": 7.4614043,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
+		},
+		{
+			"PosX": -121.580696,
+			"PosY": 2.9770198,
+			"PosZ": 12.709506,
+			"PropId": "willow_tree_3",
+			"RotationY": 0,
+			"Scale": 4.2
 		}
 	],
 	"SkyboxPath": "Assets/skyboxes/jade_shrine.rtex",
@@ -330,7 +2234,7 @@
 			"PosY": 3,
 			"PosZ": -150,
 			"RotationY": 0,
-			"Scale": 1,
+			"Scale": 2.0000002,
 			"UnitId": "survivor_hero"
 		}
 	],
